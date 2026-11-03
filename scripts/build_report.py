@@ -34,12 +34,14 @@ for d in sorted(glob.glob(os.path.join(arte, "resultats-*"))):
         details[r.get("mode", "?")] = {k: r[k] for k in ("etapes", "ecrans_vus", "boutons_touches", "memoire_mo", "structure_ecrans") if k in r}
     if not glob.glob(os.path.join(d, "explorateur_*.json")):
         defauts.append({"type": "pas_de_resultat", "detail": "Aucun résultat : l'émulateur n'a pas démarré ou a planté."})
-    total += len(defauts)
+    infra = [x for x in defauts if x.get("type") == "infra"]
+    reels = [x for x in defauts if x.get("type") not in ("infra", "diagnostic")]
+    total += len(reels)
     if publier:
         cap = os.path.join(d, "captures")
         if os.path.isdir(cap):
             shutil.copytree(cap, os.path.join(dest, nom_app, "captures"))
-    appareils.append({"appareil": nom_app, "statut": "ok" if not defauts else "defaut",
+    appareils.append({"appareil": nom_app, "statut": "ok" if not reels and not infra else ("infra" if not reels else "defaut"),
                       "defauts": propre(defauts), "details": details})
 
 res = {"app": nom, "id": app_id, "date": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),

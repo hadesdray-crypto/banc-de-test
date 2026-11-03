@@ -9,6 +9,9 @@ on:
       apk_url:
         description: "Lien direct vers l'APK (facultatif, sinon dernière version du dépôt de l'appli)"
         required: false
+      appareil:
+        description: "Un seul appareil (nom dans profiles.json), sinon la série"
+        required: false
       serie_complete:
         description: "Toute la matrice d'appareils (plus long)"
         type: boolean
@@ -31,7 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: m
-        run: python3 scripts/make_matrix.py "${{ inputs.app_id }}" "${{ inputs.serie_complete }}"
+        run: python3 scripts/make_matrix.py "${{ inputs.app_id }}" "${{ inputs.serie_complete }}" "${{ inputs.appareil }}"
 
   apk:
     needs: preparation
@@ -94,7 +97,9 @@ jobs:
           profile: ${{ matrix.profile }}
           ram-size: ${{ matrix.ram }}M
           disable-animations: false
-          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -no-snapshot -camera-back none
+          heap-size: 576M
+          disk-size: 6G
           script: bash scripts/run_on_emulator.sh apk/app.apk ${{ matrix.nom }} out/${{ matrix.nom }}
       - uses: actions/upload-artifact@v4
         if: always()

@@ -63,6 +63,24 @@ def shot(name):
             f.write(png)
 
 
+def device_ok():
+    return adb("get-state", timeout=15).strip() == "device"
+
+
+def attendre_changement(max_s=90):
+    """Écran d'ouverture : attend qu'il change (chargement). Sinon, c'est un défaut."""
+    v0 = vis()
+    if v0 is None:
+        return True
+    t0 = time.time()
+    while time.time() - t0 < max_s:
+        time.sleep(5)
+        v = vis()
+        if v is not None and bin(v ^ v0).count("1") > 10:
+            return True
+    return False
+
+
 def vis():
     """Empreinte visuelle 8x8 de l'écran (None si Pillow absent)."""
     try:
@@ -128,15 +146,20 @@ def crash_summary():
 def diagnostic():
     """Infos pour comprendre pourquoi l'appli ne démarre pas (sans texte d'appli)."""
     out = []
-    out.append("abis=" + adb("shell", "getprop", "ro.product.cpu.abilist").strip())
+    out.append("android=" + adb("shell", "getprop", "ro.build.version.release").strip()
+               + " abis=" + adb("shell", "getprop", "ro.product.cpu.abilist").strip())
+    for wp in ("com.google.android.webview", "com.android.webview", "com.android.chrome"):
+        for l in adb("shell", "dumpsys", "package", wp).splitlines():
+            if "versionName" in l:
+                out.append("%s %s" % (wp.split(".")[-1], l.strip()[:40])); break
     for l in adb("shell", "dumpsys", "package", PKG).splitlines():
         if re.search(r"primaryCpuAbi|secondaryCpuAbi|targetSdk|minSdk|versionName|flags=", l):
             out.append(l.strip()[:90])
     out.append("activite=" + adb("shell", "cmd", "package", "resolve-activity", "--brief", PKG).strip().replace("\n", " ")[-120:])
-    pat = re.compile(r"AndroidRuntime|FATAL|linker|dlopen|ndk_translation|UnsatisfiedLink|has died|am_proc_died|"
+    pat = re.compile(r"CONSOLE|Uncaught|SyntaxError|ReferenceError|TypeError|net::ERR|AndroidRuntime|FATAL|linker|dlopen|ndk_translation|UnsatisfiedLink|has died|am_proc_died|"
                      r"am_crash|Force finishing|SIGSEGV|Abort|Not an ELF|library|chromium|WebView|denied", re.I)
-    lines = [l for l in adb("logcat", "-d", "-t", "1500").splitlines() if pat.search(l) and (PKG in l or "ActivityManager" in l or "linker" in l or "AndroidRuntime" in l)]
-    out += [l.split(": ", 1)[-1].strip()[:130] for l in lines[-10:]]
+    lines = [l for l in adb("logcat", "-d", "-t", "1500").splitlines() if pat.search(l) and (PKG in l or "ActivityManager" in l or "linker" in l or "AndroidRuntime" in l or "chromium" in l.lower())]
+    out += [l.split(": ", 1)[-1].strip()[:150] for l in lines[-12:]]
     return scrub(" ## ".join(out))[:1400]
 
 
@@ -222,8 +245,17 @@ def main():
     launch()
     shot("00_ouverture")
     stale = 0
+    if LABEL == "normal" and not attendre_changement(90):
+        defect("ecran_bloque", "L'écran d'ouverture ne change pas après 90 secondes.")
+        defect("diagnostic", diagnostic())
     while steps < MAX_STEPS and stale < 12:
         steps += 1
+        if not device_ok():
+            adb("reconnect", timeout=20)
+            time.sleep(10)
+            if not device_ok():
+                defect("infra", "Émulateur injoignable (problème du banc de test, pas de l'appli).")
+                break
         if not alive():
             defect("plantage", "L'appli est fermée de façon inattendue. " + crash_summary())
             if not any(d["type"] == "diagnostic" for d in defects):
