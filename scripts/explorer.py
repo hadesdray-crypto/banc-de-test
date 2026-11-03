@@ -32,9 +32,14 @@ def scrub(t):
 
 def defect(kind, text):
     d = {"type": kind, "detail": scrub(text), "etape": steps, "mode": LABEL}
-    if d not in defects:
+    if not any((x["type"], x["detail"], x["mode"]) == (d["type"], d["detail"], d["mode"]) for x in defects):
         defects.append(d)
         print("DEFAUT", kind, text, flush=True)
+
+
+def densite():
+    m = re.findall(r"(\d+)", adb("shell", "wm", "density").split("Override")[-1])
+    return int(m[-1]) / 160.0 if m else 2.0
 
 
 def screen_size():
@@ -278,6 +283,7 @@ def ecrire_resultat():
 def main():
     global steps
     W, H = screen_size()
+    DP = densite()
     adb("logcat", "-c")
     launch()
     shot("00_ouverture")
@@ -337,13 +343,13 @@ def main():
             if not tappable(n):
                 continue
             lab = n.get("text") or n.get("content-desc") or n.get("resource-id") or "bouton"
-            if x2 <= 0 or y2 <= 0 or x1 >= W or y1 >= H:
-                defect("bouton_hors_ecran", "« %s » est hors de l'écran." % lab[:40])
-                continue
-            if x1 < -2 or x2 > W + 2 or y2 > H + 2:
-                defect("bouton_coupe", "« %s » dépasse de l'écran." % lab[:40])
-            if (x2 - x1) < 40 or (y2 - y1) < 40:
-                defect("bouton_trop_petit", "« %s » est trop petit pour un doigt." % lab[:40])
+            natif = n.get("web") != "1" and n.get("clickable") == "true"
+            if y2 <= 0 or y1 >= H or x2 <= 0 or x1 >= W:
+                continue   # défilé hors de l'écran : normal, ni touché ni signalé
+            if natif and (x1 < -2 or x2 > W + 2):
+                defect("bouton_coupe", "« %s » dépasse sur le côté de l'écran." % lab[:40])
+            if natif and ((x2 - x1) < 32 * DP or (y2 - y1) < 32 * DP):
+                defect("bouton_trop_petit", "« %s » est trop petit pour un doigt (moins de 32 dp)." % lab[:40])
             if not (n.get("text") or n.get("content-desc")) and n.get("class", "").endswith("ImageView"):
                 defect("bouton_sans_nom", "Un bouton image n'a pas d'étiquette (état %d)." % sid)
             key = (sid, n.get("resource-id"), lab, x1, y1)
