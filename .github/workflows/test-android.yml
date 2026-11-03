@@ -75,6 +75,14 @@ jobs:
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
           sudo udevadm control --reload-rules
           sudo udevadm trigger --name-match=kvm
+      - name: Télécharger l'image Android (nouvelles tentatives si le réseau coupe)
+        run: |
+          set +e
+          for i in 1 2 3 4 5; do
+            yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "system-images;android-${{ matrix.api }};google_apis;x86_64" && exit 0
+            echo "Tentative $i échouée, nouvelle tentative…"; sleep 20
+          done
+          exit 1
       - name: Test sur ${{ matrix.nom }}
         uses: reactivecircus/android-emulator-runner@v2
         with:
