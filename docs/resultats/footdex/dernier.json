@@ -1,10 +1,10 @@
 {
  "app": "Footix",
  "id": "footdex",
- "date": "2026-11-03 19:27 UTC",
+ "date": "2026-11-03 19:28 UTC",
  "total_defauts": 3,
  "captures_publiees": true,
- "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41695088067",
+ "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41695099884",
  "appareils": [
   {
    "appareil": "android13-telephone",
@@ -154,7 +154,7 @@
    "defauts": [
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 996 10802 48 4572 14986] qemu=1 noyau[]",
+     "detail": "Émulateur injoignable pendant 5 minutes (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15982 1059 11028 51 4282 14922] qemu=1 noyau[]",
      "etape": 1,
      "mode": "horsconnexion"
     },
@@ -172,19 +172,19 @@
     },
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 997 10804 48 4567 14985] qemu=1 noyau[]",
+     "detail": "Émulateur injoignable pendant 5 minutes (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15982 1048 11043 49 4275 14933] qemu=1 noyau[]",
      "etape": 2,
      "mode": "normal"
     },
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 996 10802 48 4572 14986] qemu=1 noyau[]",
+     "detail": "Émulateur injoignable pendant 5 minutes (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15982 1030 11059 50 4278 14951] qemu=1 noyau[]",
      "etape": 1,
      "mode": "police200"
     },
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 990 10808 48 4572 14992] qemu=1 noyau[]",
+     "detail": "Émulateur injoignable pendant 5 minutes (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15982 1058 11031 51 4280 14923] qemu=1 noyau[]",
      "etape": 1,
      "mode": "paysage"
     }
