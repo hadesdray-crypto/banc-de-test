@@ -1,10 +1,10 @@
 {
  "app": "Footix",
  "id": "footdex",
- "date": "2026-11-03 18:32 UTC",
+ "date": "2026-11-03 19:27 UTC",
  "total_defauts": 2,
  "captures_publiees": true,
- "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41691827513",
+ "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41695075123",
  "appareils": [
   {
    "appareil": "android13-telephone",
@@ -71,37 +71,37 @@
    "defauts": [
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 989 10332 48 5055 14994] qemu=1 noyau[]",
+     "detail": "Émulateur injoignable pendant 5 minutes (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 983 12465 51 2905 14999] qemu=1 noyau[]",
      "etape": 1,
      "mode": "horsconnexion"
     },
     {
-     "type": "ecran_bloque",
-     "detail": "L'écran d'ouverture ne change pas après 90 secondes.",
-     "etape": 0,
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
+     "etape": 1,
      "mode": "normal"
     },
     {
      "type": "diagnostic",
      "detail": "android= abis= ## activite=",
-     "etape": 0,
-     "mode": "normal"
-    },
-    {
-     "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 1013 10316 48 5045 14969] qemu=1 noyau[]",
      "etape": 1,
      "mode": "normal"
     },
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 989 10332 48 5054 14993] qemu=1 noyau[]",
+     "detail": "Émulateur injoignable pendant 5 minutes (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 969 12485 49 2896 15013] qemu=1 noyau[]",
+     "etape": 2,
+     "mode": "normal"
+    },
+    {
+     "type": "infra",
+     "detail": "Émulateur injoignable pendant 5 minutes (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 962 12488 50 2902 15020] qemu=1 noyau[]",
      "etape": 1,
      "mode": "police200"
     },
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 989 10331 48 5055 14993] qemu=1 noyau[]",
+     "detail": "Émulateur injoignable pendant 5 minutes (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 982 12467 51 2905 15000] qemu=1 noyau[]",
      "etape": 1,
      "mode": "paysage"
     }
@@ -114,7 +114,7 @@
      "structure_ecrans": []
     },
     "normal": {
-     "etapes": 1,
+     "etapes": 2,
      "ecrans_vus": 0,
      "boutons_touches": 0,
      "structure_ecrans": []
