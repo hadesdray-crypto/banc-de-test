@@ -63,6 +63,19 @@ def shot(name):
             f.write(png)
 
 
+def hote():
+    """État du serveur au moment où l'émulateur disparaît (mémoire, processus, journal noyau)."""
+    def sh(c):
+        try:
+            return subprocess.run(c, shell=True, capture_output=True, timeout=20).stdout.decode("utf-8", "replace")
+        except Exception:
+            return ""
+    mem = " ".join(sh("free -m | sed -n 2p").split())
+    proc = sh("pgrep -fc qemu-system").strip()
+    noyau = " / ".join(l[-110:] for l in sh("sudo dmesg 2>/dev/null | grep -i -E 'oom|killed process|segfault' | tail -3").splitlines())
+    return ("mem[%s] qemu=%s noyau[%s]" % (mem, proc, noyau))[:500]
+
+
 def device_ok():
     return adb("get-state", timeout=15).strip() == "device"
 
@@ -254,7 +267,7 @@ def main():
             adb("reconnect", timeout=20)
             time.sleep(10)
             if not device_ok():
-                defect("infra", "Émulateur injoignable (problème du banc de test, pas de l'appli).")
+                defect("infra", "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : " + hote())
                 break
         if not alive():
             defect("plantage", "L'appli est fermée de façon inattendue. " + crash_summary())
