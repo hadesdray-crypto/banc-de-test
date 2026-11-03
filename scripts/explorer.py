@@ -4,7 +4,7 @@ gratte, fait défiler, tape du texte) et note les défauts.
 
 Usage : explorer.py PAQUET DOSSIER_SORTIE ETIQUETTE [MAX_ETAPES]
 """
-import hashlib, json, os, re, subprocess, sys, time
+import hashlib, json, os, re, signal, subprocess, sys, time
 import xml.etree.ElementTree as ET
 
 PKG, OUT, LABEL = sys.argv[1], sys.argv[2], sys.argv[3]
@@ -105,6 +105,13 @@ def check_crash():
     return False
 
 
+def ecrire_resultat():
+    res = {"mode": LABEL, "etapes": steps, "ecrans_vus": len(screens),
+           "boutons_touches": len([k for k in tapped if k[0] != "t"]), "defauts": defects}
+    with open(os.path.join(OUT, "explorateur_%s.json" % LABEL), "w", encoding="utf-8") as f:
+        json.dump(res, f, ensure_ascii=False, indent=1)
+
+
 def main():
     global steps
     W, H = screen_size()
@@ -182,10 +189,10 @@ def main():
             time.sleep(1)
     shot("99_fin")
     check_crash()
-    res = {"mode": LABEL, "etapes": steps, "ecrans_vus": len(screens),
-           "boutons_touches": len([k for k in tapped if k[0] != "t"]), "defauts": defects}
-    with open(os.path.join(OUT, "explorateur_%s.json" % LABEL), "w", encoding="utf-8") as f:
-        json.dump(res, f, ensure_ascii=False, indent=1)
 
 
-main()
+signal.signal(signal.SIGTERM, lambda *a: sys.exit(1))
+try:
+    main()
+finally:
+    ecrire_resultat()

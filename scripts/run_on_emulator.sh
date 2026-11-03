@@ -23,30 +23,30 @@ fi
 # 2. Exploration normale (portrait)
 adb shell settings put system accelerometer_rotation 0
 adb shell settings put system user_rotation 0
-python3 "$HERE/explorer.py" "$PKG" "$OUT" normal 120
+timeout 900 python3 "$HERE/explorer.py" "$PKG" "$OUT" normal 120
 
 # 3. Police et affichage au maximum (texte à 200 %)
 adb shell settings put system font_scale 2.0
 adb shell wm density $(( $(adb shell wm density | grep -o '[0-9]*$' | tail -1) * 13 / 10 )) || true
-python3 "$HERE/explorer.py" "$PKG" "$OUT" police200 50
+timeout 900 python3 "$HERE/explorer.py" "$PKG" "$OUT" police200 50
 adb shell settings put system font_scale 1.0
 adb shell wm density reset || true
 
 # 4. Paysage
 adb shell settings put system user_rotation 1
-python3 "$HERE/explorer.py" "$PKG" "$OUT" paysage 50
+timeout 900 python3 "$HERE/explorer.py" "$PKG" "$OUT" paysage 50
 adb shell settings put system user_rotation 0
 
 # 5. Hors connexion
 adb shell svc wifi disable; adb shell svc data disable
 adb shell cmd connectivity airplane-mode enable || true
-python3 "$HERE/explorer.py" "$PKG" "$OUT" horsconnexion 50
+timeout 900 python3 "$HERE/explorer.py" "$PKG" "$OUT" horsconnexion 50
 adb shell cmd connectivity airplane-mode disable || true
 adb shell svc wifi enable
 
 # 6. Gestes au hasard longtemps (Monkey) + endurance
 adb logcat -c
-adb shell monkey -p "$PKG" --throttle 120 --pct-syskeys 0 --ignore-timeouts \
+timeout 900 adb shell monkey -p "$PKG" --throttle 120 --pct-syskeys 0 --ignore-timeouts \
   --monitor-native-crashes -s 42 -v 4000 > "$OUT/monkey.txt" 2>&1
 MONKEY_CRASH=$(grep -c -E "CRASH:|ANR in" "$OUT/monkey.txt" || true)
 adb shell dumpsys meminfo "$PKG" > "$OUT/memoire.txt" 2>&1
