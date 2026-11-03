@@ -1,9 +1,377 @@
 {
  "app": "Footix",
  "id": "footdex",
- "date": "2026-11-03 15:21 UTC",
- "total_defauts": 0,
+ "date": "2026-11-03 16:23 UTC",
+ "total_defauts": 41,
  "captures_publiees": false,
- "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41662741177",
- "appareils": []
+ "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41663060354",
+ "appareils": [
+  {
+   "appareil": "android11-petit-telephone",
+   "statut": "ok",
+   "defauts": [],
+   "details": {
+    "police200": {
+     "etapes": 19,
+     "ecrans_vus": 1,
+     "boutons_touches": 6,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2
+      }
+     ]
+    },
+    "hasard_endurance": {
+     "memoire_mo": 103
+    },
+    "paysage": {
+     "etapes": 16,
+     "ecrans_vus": 1,
+     "boutons_touches": 3,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2
+      }
+     ]
+    },
+    "horsconnexion": {
+     "etapes": 15,
+     "ecrans_vus": 1,
+     "boutons_touches": 2,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2
+      }
+     ]
+    },
+    "normal": {
+     "etapes": 18,
+     "ecrans_vus": 1,
+     "boutons_touches": 2,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "appareil": "android14-telephone",
+   "statut": "defaut",
+   "defauts": [
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 1,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 2,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 3,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 4,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 5,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 6,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 7,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 1,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 2,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 3,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 4,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 5,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 6,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 7,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : bash arg: -p   bash arg: fr.raphael.footdex   bash arg: -c   bash arg: android.intent.category.LAUNCHER   bash arg: 1 Events injected: 1 ## Network stats: elapsed time=683ms (0ms mobile, 0ms wifi, 683",
+     "etape": 6,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 7,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 8,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 9,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 10,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 11,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 12,
+     "mode": "normal"
+    }
+   ],
+   "details": {
+    "police200": {
+     "etapes": 8,
+     "ecrans_vus": 0,
+     "boutons_touches": 0,
+     "structure_ecrans": []
+    },
+    "paysage": {
+     "etapes": 8,
+     "ecrans_vus": 0,
+     "boutons_touches": 0,
+     "structure_ecrans": []
+    },
+    "normal": {
+     "etapes": 12,
+     "ecrans_vus": 0,
+     "boutons_touches": 0,
+     "structure_ecrans": []
+    }
+   }
+  },
+  {
+   "appareil": "android15-tablette",
+   "statut": "defaut",
+   "defauts": [
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 1,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 2,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 3,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 4,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 5,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 6,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 7,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 1,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 2,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 3,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 4,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 5,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 6,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 7,
+     "mode": "paysage"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : bash arg: -p   bash arg: fr.raphael.footdex   bash arg: -c   bash arg: android.intent.category.LAUNCHER   bash arg: 1 Events injected: 1 ## Network stats: elapsed time=450ms (0ms mobile, 0ms wifi, 450",
+     "etape": 2,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 3,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 4,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 5,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 6,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. lancement : ",
+     "etape": 7,
+     "mode": "normal"
+    }
+   ],
+   "details": {
+    "police200": {
+     "etapes": 8,
+     "ecrans_vus": 0,
+     "boutons_touches": 0,
+     "structure_ecrans": []
+    },
+    "paysage": {
+     "etapes": 8,
+     "ecrans_vus": 0,
+     "boutons_touches": 0,
+     "structure_ecrans": []
+    },
+    "normal": {
+     "etapes": 7,
+     "ecrans_vus": 1,
+     "boutons_touches": 1,
+     "structure_ecrans": [
+      {
+       "noeuds": 12,
+       "cliquables": 2,
+       "web": 0,
+       "touchables": 2
+      }
+     ]
+    }
+   }
+  }
+ ]
 }
