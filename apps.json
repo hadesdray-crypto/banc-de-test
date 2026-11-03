@@ -5,7 +5,7 @@
       "id": "footdex",
       "nom": "Footix",
       "repo": "hadesdray-crypto/footdex",
-      "publier_captures": false
+      "publier_captures": true
     }
   ]
 }

@@ -41,11 +41,26 @@ def screen_size():
     return (int(m.group(1)), int(m.group(2))) if m else (1080, 1920)
 
 
+NSHOT = 0
+
+
 def shot(name):
-    p = os.path.join(SHOTS, "%s_%s.png" % (LABEL, name))
-    with open(p, "wb") as f:
-        f.write(subprocess.run(["adb", "exec-out", "screencap", "-p"],
-                               capture_output=True, timeout=30).stdout)
+    """Capture réduite (JPEG ~480 px) pour garder le dépôt léger ; 14 par phase au plus."""
+    global NSHOT
+    if NSHOT >= 14 and not name.startswith(("99", "00")):
+        return
+    NSHOT += 1
+    png = subprocess.run(["adb", "exec-out", "screencap", "-p"], capture_output=True, timeout=30).stdout
+    base = os.path.join(SHOTS, "%s_%s" % (LABEL, name))
+    try:
+        from PIL import Image
+        import io
+        im = Image.open(io.BytesIO(png)).convert("RGB")
+        im.thumbnail((480, 480))
+        im.save(base + ".jpg", quality=60)
+    except Exception:
+        with open(base + ".png", "wb") as f:
+            f.write(png)
 
 
 def vis():
@@ -108,6 +123,21 @@ def crash_summary():
             seen.add(b); out.append(b)
     txt = " | ".join(out[:6])
     return (txt or "aucune cause trouvée dans le journal")[:600]
+
+
+def diagnostic():
+    """Infos pour comprendre pourquoi l'appli ne démarre pas (sans texte d'appli)."""
+    out = []
+    out.append("abis=" + adb("shell", "getprop", "ro.product.cpu.abilist").strip())
+    for l in adb("shell", "dumpsys", "package", PKG).splitlines():
+        if re.search(r"primaryCpuAbi|secondaryCpuAbi|targetSdk|minSdk|versionName|flags=", l):
+            out.append(l.strip()[:90])
+    out.append("activite=" + adb("shell", "cmd", "package", "resolve-activity", "--brief", PKG).strip().replace("\n", " ")[-120:])
+    pat = re.compile(r"AndroidRuntime|FATAL|linker|dlopen|ndk_translation|UnsatisfiedLink|has died|am_proc_died|"
+                     r"am_crash|Force finishing|SIGSEGV|Abort|Not an ELF|library|chromium|WebView|denied", re.I)
+    lines = [l for l in adb("logcat", "-d", "-t", "1500").splitlines() if pat.search(l) and (PKG in l or "ActivityManager" in l or "linker" in l or "AndroidRuntime" in l)]
+    out += [l.split(": ", 1)[-1].strip()[:130] for l in lines[-10:]]
+    return scrub(" ## ".join(out))[:1400]
 
 
 def dump_ui():
@@ -196,6 +226,8 @@ def main():
         steps += 1
         if not alive():
             defect("plantage", "L'appli est fermée de façon inattendue. " + crash_summary())
+            if not any(d["type"] == "diagnostic" for d in defects):
+                defect("diagnostic", diagnostic())
             check_crash()
             launch()
         if focus_pkg() not in (PKG, ""):
@@ -219,7 +251,8 @@ def main():
             shot("%03d_ecran_%d" % (steps, sid))
             stats.append({"noeuds": len(items), "cliquables": sum(1 for n, _ in items if n.get("clickable") == "true"),
                           "web": sum(1 for n, _ in items if n.get("web") == "1"),
-                          "touchables": sum(1 for n, _ in items if tappable(n))})
+                          "touchables": sum(1 for n, _ in items if tappable(n)),
+                          "textes": [t[:24] for t in [(n.get("text") or n.get("content-desc") or "") for n, _ in items] if t][:12]})
             scratch(W, H)  # geste de grattage / glissement sur chaque nouvel écran
             if len(items) < 2:
                 defect("ecran_vide", "Écran presque vide (état %d)." % sid)

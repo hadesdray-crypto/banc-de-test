@@ -10,7 +10,7 @@ dest = os.path.join("docs", "resultats", app_id)
 shutil.rmtree(dest, ignore_errors=True)
 os.makedirs(dest, exist_ok=True)
 
-PAQUET = re.compile(r"\b(?:[A-Za-z][A-Za-z0-9_]*\.){2,}[A-Za-z][A-Za-z0-9_]*\b")
+PAQUET = re.compile(r"\b(?!(?:android|androidx|java|javax|kotlin|dalvik|libcore|com\.android|org\.chromium)\.)(?:[A-Za-z][A-Za-z0-9_]*\.){2,}[A-Za-z][A-Za-z0-9_]*\b")
 
 
 def propre(x):
