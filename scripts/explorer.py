@@ -13,6 +13,7 @@ SHOTS = os.path.join(OUT, "captures")
 os.makedirs(SHOTS, exist_ok=True)
 
 defects, screens, tapped, stats, known = [], {}, set(), [], []
+redemarrages = [0]
 steps = 0
 
 
@@ -51,6 +52,8 @@ def shot(name):
         return
     NSHOT += 1
     png = subprocess.run(["adb", "exec-out", "screencap", "-p"], capture_output=True, timeout=30).stdout
+    if len(png) < 1000:
+        return
     base = os.path.join(SHOTS, "%s_%s" % (LABEL, name))
     try:
         from PIL import Image
@@ -80,6 +83,25 @@ def device_ok():
     return adb("get-state", timeout=15).strip() == "device"
 
 
+def retrouver_appareil(max_s=300):
+    """Après une coupure : attend que le système Android revienne. Renvoie la durée, ou None."""
+    t0 = time.time()
+    adb("reconnect", timeout=20)
+    while time.time() - t0 < max_s:
+        if device_ok() and adb("shell", "getprop", "sys.boot_completed", timeout=15).strip() == "1":
+            return int(time.time() - t0)
+        time.sleep(5)
+    return None
+
+
+def journal_avant():
+    """Journal conservé d'avant le redémarrage (causes probables)."""
+    pat = re.compile(r"FATAL|Watchdog|WATCHDOG|ANR|signal|tombstone|SIGSEGV|libEGL|vulkan|swiftshader|"
+                     r"surfaceflinger|zygote|system_server|died|Killing|oom|WebView|chromium", re.I)
+    lines = [l for l in adb("logcat", "-d", "-L", "-t", "3000", timeout=60).splitlines() if pat.search(l)]
+    return scrub(" | ".join(l.split(": ", 1)[-1].strip()[:120] for l in lines[-8:]))[:900]
+
+
 def attendre_changement(max_s=90):
     """Écran d'ouverture : attend qu'il change (chargement). Sinon, c'est un défaut."""
     v0 = vis()
@@ -89,7 +111,9 @@ def attendre_changement(max_s=90):
     while time.time() - t0 < max_s:
         time.sleep(5)
         v = vis()
-        if v is not None and bin(v ^ v0).count("1") > 10:
+        if v is None:      # appareil injoignable : on laisse la boucle principale le gérer
+            return True
+        if bin(v ^ v0).count("1") > 10:
             return True
     return False
 
@@ -264,11 +288,17 @@ def main():
     while steps < MAX_STEPS and stale < 12:
         steps += 1
         if not device_ok():
-            adb("reconnect", timeout=20)
-            time.sleep(10)
-            if not device_ok():
-                defect("infra", "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : " + hote())
+            duree = retrouver_appareil(300)
+            if duree is None:
+                defect("infra", "Émulateur injoignable pendant 5 minutes (problème du banc de test, pas de l'appli). Hôte : " + hote())
                 break
+            redemarrages[0] += 1
+            defect("redemarrage_systeme", "Le système Android a redémarré pendant le test (retour en %d s). Journal d'avant : %s" % (duree, journal_avant()))
+            if redemarrages[0] >= 3:
+                defect("infra", "Le système redémarre en boucle sur cet appareil virtuel.")
+                break
+            launch()
+            continue
         if not alive():
             defect("plantage", "L'appli est fermée de façon inattendue. " + crash_summary())
             if not any(d["type"] == "diagnostic" for d in defects):

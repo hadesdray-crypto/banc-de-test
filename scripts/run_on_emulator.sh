@@ -12,7 +12,8 @@ echo "{\"appareil\":\"$DEVICE\"}" > "$OUT/info.json"
 
 # Toute commande adb ordinaire a une limite de temps : aucun blocage possible.
 A() { timeout 40 adb "$@"; }
-PHASE=420   # secondes maximum par phase
+PHASE=900   # secondes maximum par phase (le robot attend lui-même les redémarrages)
+W() { timeout 300 adb wait-for-device; sleep 3; }
 
 A wait-for-device
 A shell input keyevent KEYCODE_WAKEUP
@@ -31,26 +32,26 @@ fi
 # 2. Exploration normale (portrait)
 A shell settings put system accelerometer_rotation 0
 A shell settings put system user_rotation 0
-timeout $PHASE python3 "$HERE/explorer.py" "$PKG" "$OUT" normal 120
+W; timeout $PHASE python3 "$HERE/explorer.py" "$PKG" "$OUT" normal 120
 
 # 3. Police et affichage au maximum (texte à 200 %)
 A shell settings put system font_scale 2.0
 DENS="$(A shell wm density | grep -o '[0-9]*$' | tail -1)"
 [ -n "$DENS" ] && A shell wm density $(( DENS * 13 / 10 )) || true
-timeout $PHASE python3 "$HERE/explorer.py" "$PKG" "$OUT" police200 50
+W; timeout $PHASE python3 "$HERE/explorer.py" "$PKG" "$OUT" police200 50
 A shell settings put system font_scale 1.0
 A shell wm density reset || true
 
 # 4. Paysage
 A shell settings put system user_rotation 1
-timeout $PHASE python3 "$HERE/explorer.py" "$PKG" "$OUT" paysage 50
+W; timeout $PHASE python3 "$HERE/explorer.py" "$PKG" "$OUT" paysage 50
 A shell settings put system user_rotation 0
 
 # 5. Hors connexion (méthodes en cascade : chacune limitée à 40 s, on passe à la suivante)
 A shell svc wifi disable || true
 A shell svc data disable || true
 A shell cmd connectivity airplane-mode enable || A shell settings put global airplane_mode_on 1 || true
-timeout $PHASE python3 "$HERE/explorer.py" "$PKG" "$OUT" horsconnexion 50
+W; timeout $PHASE python3 "$HERE/explorer.py" "$PKG" "$OUT" horsconnexion 50
 A shell cmd connectivity airplane-mode disable || A shell settings put global airplane_mode_on 0 || true
 A shell svc wifi enable || true
 A shell svc data enable || true

@@ -62,7 +62,7 @@ jobs:
   test:
     needs: [preparation, apk]
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 80
     strategy:
       fail-fast: false
       matrix: ${{ fromJson(needs.preparation.outputs.matrix) }}
