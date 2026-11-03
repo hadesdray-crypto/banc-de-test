@@ -17,7 +17,7 @@ for d in sorted(glob.glob(os.path.join(arte, "resultats-*"))):
     for f in glob.glob(os.path.join(d, "explorateur_*.json")):
         r = json.load(open(f, encoding="utf-8"))
         defauts += r.get("defauts", [])
-        details[r.get("mode", "?")] = {k: r[k] for k in ("etapes", "ecrans_vus", "boutons_touches", "memoire_mo") if k in r}
+        details[r.get("mode", "?")] = {k: r[k] for k in ("etapes", "ecrans_vus", "boutons_touches", "memoire_mo", "structure_ecrans") if k in r}
     if not glob.glob(os.path.join(d, "explorateur_*.json")):
         defauts.append({"type": "pas_de_resultat", "detail": "Aucun résultat : l'émulateur n'a pas démarré ou a planté."})
     total += len(defauts)

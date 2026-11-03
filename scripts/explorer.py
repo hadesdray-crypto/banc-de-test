@@ -12,7 +12,7 @@ MAX_STEPS = int(sys.argv[4]) if len(sys.argv) > 4 else 120
 SHOTS = os.path.join(OUT, "captures")
 os.makedirs(SHOTS, exist_ok=True)
 
-defects, screens, tapped = [], {}, set()
+defects, screens, tapped, stats = [], {}, set(), []
 steps = 0
 
 
@@ -53,9 +53,21 @@ def alive():
     return bool(adb("shell", "pidof", PKG).strip())
 
 
+LAST_LAUNCH = ""
+
+
 def launch():
-    adb("shell", "monkey", "-p", PKG, "-c", "android.intent.category.LAUNCHER", "1")
+    global LAST_LAUNCH
+    LAST_LAUNCH = adb("shell", "monkey", "-p", PKG, "-c", "android.intent.category.LAUNCHER", "1")
     time.sleep(3)
+
+
+def crash_summary():
+    """Résumé court (sans texte de l'appli) : classes d'erreur du dernier plantage."""
+    log = adb("logcat", "-d", "-b", "crash")
+    lines = [l.split(": ", 1)[-1].strip() for l in log.splitlines()
+             if "FATAL EXCEPTION" in l or "Exception" in l or "Error" in l or "Caused by" in l]
+    return " | ".join(lines[:4])[:400] or ("lancement : " + LAST_LAUNCH.strip().replace("\n", " ")[:200])
 
 
 def dump_ui():
@@ -67,11 +79,31 @@ def dump_ui():
         return None
 
 
-def nodes(root):
-    for n in root.iter("node"):
-        m = re.match(r"\[(\d+),(\d+)\]\[(\d+),(\d+)\]", n.get("bounds", ""))
-        if m:
-            yield n, tuple(int(x) for x in m.groups())
+def nodes(root, in_web=False):
+    """Parcourt l'arbre ; ajoute n.set('web','1') pour les éléments d'une appli web."""
+    stack = [(root, False)]
+    while stack:
+        n, web = stack.pop()
+        web = web or n.get("class") == "android.webkit.WebView"
+        if n.tag == "node":
+            m = re.match(r"\[(\d+),(\d+)\]\[(\d+),(\d+)\]", n.get("bounds", ""))
+            if m:
+                n.set("web", "1" if web else "0")
+                yield n, tuple(int(x) for x in m.groups())
+        for c in reversed(list(n)):
+            stack.append((c, web))
+
+
+def tappable(n):
+    """Cliquable pour Android, ou élément d'une appli web avec un nom / focus."""
+    if n.get("enabled") != "true":
+        return False
+    if n.get("clickable") == "true" or n.get("long-clickable") == "true":
+        return True
+    if n.get("web") == "1" and (n.get("text") or n.get("content-desc")) and \
+            n.get("class") in ("android.view.View", "android.widget.Button", "android.widget.ImageView", "android.widget.TextView"):
+        return True
+    return False
 
 
 def tap(x, y):
@@ -107,7 +139,8 @@ def check_crash():
 
 def ecrire_resultat():
     res = {"mode": LABEL, "etapes": steps, "ecrans_vus": len(screens),
-           "boutons_touches": len([k for k in tapped if k[0] != "t"]), "defauts": defects}
+           "boutons_touches": len([k for k in tapped if k[0] not in ("t", "g")]),
+           "structure_ecrans": stats[:12], "defauts": defects}
     with open(os.path.join(OUT, "explorateur_%s.json" % LABEL), "w", encoding="utf-8") as f:
         json.dump(res, f, ensure_ascii=False, indent=1)
 
@@ -122,7 +155,7 @@ def main():
     while steps < MAX_STEPS and stale < 12:
         steps += 1
         if not alive():
-            defect("plantage", "L'appli est fermée de façon inattendue.")
+            defect("plantage", "L'appli est fermée de façon inattendue. " + crash_summary())
             check_crash()
             launch()
         if focus_pkg() not in (PKG, ""):
@@ -144,13 +177,16 @@ def main():
             screens[sig] = steps
             stale = 0
             shot("%03d_ecran_%s" % (steps, sig))
+            stats.append({"noeuds": len(items), "cliquables": sum(1 for n, _ in items if n.get("clickable") == "true"),
+                          "web": sum(1 for n, _ in items if n.get("web") == "1"),
+                          "touchables": sum(1 for n, _ in items if tappable(n))})
             scratch(W, H)  # geste de grattage / glissement sur chaque nouvel écran
             if len(items) < 2:
                 defect("ecran_vide", "Écran presque vide (%s)." % sig)
         # défauts d'affichage : boutons hors écran ou trop petits
         cands = []
         for n, (x1, y1, x2, y2) in items:
-            if n.get("clickable") != "true" or n.get("enabled") != "true":
+            if not tappable(n):
                 continue
             lab = n.get("text") or n.get("content-desc") or n.get("resource-id") or "bouton"
             if x2 <= 0 or y2 <= 0 or x1 >= W or y1 >= H:
@@ -180,6 +216,15 @@ def main():
             if check_crash():
                 shot("%03d_apres_plantage" % steps)
                 launch()
+            continue
+        # repli humain : toucher une grille de points une fois par écran
+        if ("g", sig) not in tapped:
+            tapped.add(("g", sig))
+            for gx in (0.25, 0.5, 0.75):
+                for gy in (0.2, 0.4, 0.6, 0.8):
+                    tap(int(W * gx), int(H * gy))
+                    if check_crash():
+                        launch()
             continue
         # plus rien à toucher ici : défilement puis retour
         stale += 1
