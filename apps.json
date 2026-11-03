@@ -1,0 +1,11 @@
+{
+  "_aide": "Une entrée par application à tester. 'publier_captures' à true seulement si l'appli peut être vue par tout le monde (ce dépôt est public).",
+  "apps": [
+    {
+      "id": "footdex",
+      "nom": "Footix",
+      "repo": "hadesdray-crypto/footdex",
+      "publier_captures": false
+    }
+  ]
+}

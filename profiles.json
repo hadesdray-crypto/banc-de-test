@@ -1,0 +1,12 @@
+{
+  "_aide": "Appareils virtuels. 'rapide' = série courte, 'complet' = toute la matrice. Les modèles de marque (Samsung, Xiaomi...) n'existent pas en émulateur : on couvre leurs tailles d'écran et versions Android.",
+  "appareils": [
+    {"nom": "android11-petit-telephone", "api": 30, "profile": "Nexus 5", "ram": 1536, "rapide": true},
+    {"nom": "android14-telephone", "api": 34, "profile": "pixel_5", "ram": 3072, "rapide": true},
+    {"nom": "android15-tablette", "api": 35, "profile": "pixel_c", "ram": 3072, "rapide": true},
+    {"nom": "android12-telephone", "api": 31, "profile": "pixel_6", "ram": 3072, "rapide": false},
+    {"nom": "android13-telephone", "api": 33, "profile": "pixel_5", "ram": 3072, "rapide": false},
+    {"nom": "android14-pliable", "api": 34, "profile": "pixel_fold", "ram": 3072, "rapide": false},
+    {"nom": "android16-telephone", "api": 36, "profile": "pixel_6", "ram": 3072, "rapide": false, "experimental": true}
+  ]
+}

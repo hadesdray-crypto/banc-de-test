@@ -1,0 +1,116 @@
+name: Banc de test Android
+
+on:
+  workflow_dispatch:
+    inputs:
+      app_id:
+        description: "Identifiant de l'appli (voir apps.json)"
+        required: true
+      apk_url:
+        description: "Lien direct vers l'APK (facultatif, sinon dernière version du dépôt de l'appli)"
+        required: false
+      serie_complete:
+        description: "Toute la matrice d'appareils (plus long)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: banc-de-test
+  cancel-in-progress: false
+
+jobs:
+  preparation:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+      repo: ${{ steps.m.outputs.repo }}
+      publier: ${{ steps.m.outputs.publier }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: python3 scripts/make_matrix.py "${{ inputs.app_id }}" "${{ inputs.serie_complete }}"
+
+  apk:
+    needs: preparation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer l'APK
+        env:
+          GH_TOKEN: ${{ secrets.APP_TOKEN || github.token }}
+          REPO: ${{ needs.preparation.outputs.repo }}
+          URL: ${{ inputs.apk_url }}
+        run: |
+          mkdir -p apk
+          if [ -n "$URL" ]; then
+            curl -fL "$URL" -o apk/app.apk
+          else
+            gh release download --repo "$REPO" --pattern '*.apk' --dir apk --clobber
+            mv apk/*.apk apk/app.apk
+          fi
+          ls -l apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: apk
+          path: apk/app.apk
+
+  test:
+    needs: [preparation, apk]
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.preparation.outputs.matrix) }}
+    continue-on-error: ${{ matrix.experimental == true }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: apk
+          path: apk
+      - name: Activer l'accélération matérielle (KVM)
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Test sur ${{ matrix.nom }}
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ matrix.api }}
+          target: google_apis
+          arch: x86_64
+          profile: ${{ matrix.profile }}
+          ram-size: ${{ matrix.ram }}M
+          disable-animations: false
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          script: bash scripts/run_on_emulator.sh apk/app.apk ${{ matrix.nom }} out/${{ matrix.nom }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: resultats-${{ matrix.nom }}
+          path: out/${{ matrix.nom }}
+          if-no-files-found: warn
+
+  rapport:
+    needs: [preparation, test]
+    if: always() && needs.preparation.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: resultats-*
+          path: artefacts
+      - name: Construire le rapport
+        run: |
+          NOM=$(python3 -c "import json;print([a['nom'] for a in json.load(open('apps.json'))['apps'] if a['id']=='${{ inputs.app_id }}'][0])")
+          python3 scripts/build_report.py artefacts "${{ inputs.app_id }}" "$NOM" "${{ needs.preparation.outputs.publier }}" "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+      - name: Publier le tableau de bord
+        run: |
+          git config user.name "banc-de-test"
+          git config user.email "banc-de-test@users.noreply.github.com"
+          git add docs/resultats
+          git commit -m "Résultats : ${{ inputs.app_id }}" || exit 0
+          git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"

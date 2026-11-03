@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Banc de test</title>
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--txt:#1b2333;--ok:#1f9d55;--ko:#d93a3a;--mut:#64708a}
+@media (prefers-color-scheme:dark){:root{--bg:#10141f;--card:#1a2030;--txt:#eef1f8;--mut:#9aa6c0}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:18px/1.45 system-ui,sans-serif;padding:16px;max-width:760px;margin-inline:auto}
+h1{font-size:26px;margin:8px 0 4px}
+p.sub{color:var(--mut);margin:0 0 16px}
+.app{background:var(--card);border-radius:18px;padding:16px;margin-bottom:14px;box-shadow:0 2px 8px #0002}
+.tete{display:flex;align-items:center;gap:12px}
+.pastille{width:46px;height:46px;border-radius:50%;flex:none;display:grid;place-items:center;color:#fff;font-size:26px}
+.ok{background:var(--ok)}.ko{background:var(--ko)}.nd{background:var(--mut)}
+.nom{font-weight:700;font-size:21px}
+.date{color:var(--mut);font-size:15px}
+button.voir{margin-top:12px;width:100%;min-height:52px;font-size:18px;border:0;border-radius:14px;background:#3b6cf6;color:#fff;font-weight:600}
+.liste{margin-top:12px}
+.ap{border-top:1px solid #8883;padding:10px 0}
+.ap b{display:block}
+.def{margin:4px 0 0 0;padding-left:20px;color:var(--ko);font-size:16px}
+.vide{text-align:center;color:var(--mut);padding:40px 10px}
+</style>
+</head>
+<body>
+<h1>Banc de test</h1>
+<p class="sub">Vert = tout marche. Rouge = défaut trouvé, Claude le corrige puis refait les tests.</p>
+<div id="contenu"><p class="vide">Chargement…</p></div>
+<script>
+const zone = document.getElementById('contenu');
+function el(t, c, txt){const e=document.createElement(t); if(c) e.className=c; if(txt!==undefined) e.textContent=txt; return e;}
+async function charger(){
+  let idx;
+  try{ idx = await (await fetch('resultats/index.json',{cache:'no-store'})).json(); }
+  catch(e){ zone.replaceChildren(el('p','vide','Aucun test lancé pour l’instant.')); return; }
+  zone.replaceChildren();
+  for(const id of Object.keys(idx)){
+    const r = idx[id], bon = r.total_defauts === 0;
+    const carte = el('div','app'), tete = el('div','tete');
+    tete.append(el('div','pastille '+(bon?'ok':'ko'), bon?'✓':'!'));
+    const b = el('div'); b.append(el('div','nom',r.app),
+      el('div','date', (bon?'Aucun défaut':r.total_defauts+' défaut(s)')+' · '+r.nb_appareils+' appareils · '+r.date));
+    tete.append(b); carte.append(tete);
+    const bt = el('button','voir','Voir le détail'); bt.type='button';
+    const liste = el('div','liste'); liste.hidden = true;
+    bt.onclick = async ()=>{
+      if(!liste.hidden){liste.hidden=true; bt.textContent='Voir le détail'; return;}
+      if(!liste.childElementCount){
+        const d = await (await fetch('resultats/'+id+'/dernier.json',{cache:'no-store'})).json();
+        for(const a of d.appareils){
+          const ap = el('div','ap'); ap.append(el('b','', (a.statut==='ok'?'✓ ':'✗ ')+a.appareil));
+          if(!a.defauts.length) ap.append(el('div','date','Rien à signaler'));
+          else {const ul=el('ul','def'); a.defauts.forEach(x=>ul.append(el('li','',x.detail+(x.mode?' ('+x.mode+')':'')))); ap.append(ul);}
+          liste.append(ap);
+        }
+      }
+      liste.hidden=false; bt.textContent='Masquer le détail';
+    };
+    carte.append(bt, liste); zone.append(carte);
+  }
+  if(!zone.childElementCount) zone.append(el('p','vide','Aucun test lancé pour l’instant.'));
+}
+charger();
+</script>
+</body>
+</html>
