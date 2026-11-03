@@ -1,10 +1,10 @@
 {
  "app": "Footix",
  "id": "footdex",
- "date": "2026-11-03 18:10 UTC",
+ "date": "2026-11-03 18:29 UTC",
  "total_defauts": 0,
  "captures_publiees": true,
- "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41688858789",
+ "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41691814645",
  "appareils": [
   {
    "appareil": "android13-telephone",
@@ -12,25 +12,25 @@
    "defauts": [
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli).",
+     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 998 10160 48 5217 14984] qemu=1 noyau[]",
      "etape": 1,
      "mode": "horsconnexion"
     },
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli).",
-     "etape": 4,
+     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 1023 10157 47 5194 14959] qemu=1 noyau[]",
+     "etape": 3,
      "mode": "normal"
     },
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli).",
+     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 988 10182 48 5205 14994] qemu=1 noyau[]",
      "etape": 1,
      "mode": "police200"
     },
     {
      "type": "infra",
-     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli).",
+     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 1001 10168 48 5206 14981] qemu=1 noyau[]",
      "etape": 1,
      "mode": "paysage"
     }
@@ -43,7 +43,7 @@
      "structure_ecrans": []
     },
     "normal": {
-     "etapes": 4,
+     "etapes": 3,
      "ecrans_vus": 0,
      "boutons_touches": 0,
      "structure_ecrans": []
