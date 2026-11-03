@@ -158,7 +158,7 @@
     },
     {
      "type": "plantage",
-     "detail": "L'appli est fermée de façon inattendue. lancement : bash arg: -p   bash arg: fr.raphael.footdex   bash arg: -c   bash arg: android.intent.category.LAUNCHER   bash arg: 1 Events injected: 1 ## Network stats: elapsed time=683ms (0ms mobile, 0ms wifi, 683",
+     "detail": "L'appli est fermée de façon inattendue. lancement : bash arg: -p   bash arg: <appli>   bash arg: -c   bash arg: <appli>   bash arg: 1 Events injected: 1 ## Network stats: elapsed time=683ms (0ms mobile, 0ms wifi, 683",
      "etape": 6,
      "mode": "normal"
     },
@@ -310,7 +310,7 @@
     },
     {
      "type": "plantage",
-     "detail": "L'appli est fermée de façon inattendue. lancement : bash arg: -p   bash arg: fr.raphael.footdex   bash arg: -c   bash arg: android.intent.category.LAUNCHER   bash arg: 1 Events injected: 1 ## Network stats: elapsed time=450ms (0ms mobile, 0ms wifi, 450",
+     "detail": "L'appli est fermée de façon inattendue. lancement : bash arg: -p   bash arg: <appli>   bash arg: -c   bash arg: <appli>   bash arg: 1 Events injected: 1 ## Network stats: elapsed time=450ms (0ms mobile, 0ms wifi, 450",
      "etape": 2,
      "mode": "normal"
     },

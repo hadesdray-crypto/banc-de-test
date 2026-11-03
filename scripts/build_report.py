@@ -2,13 +2,27 @@
 """Regroupe les résultats de tous les appareils dans docs/resultats/.
 Usage : build_report.py DOSSIER_ARTEFACTS ID_APP NOM_APP PUBLIER(true|false) URL_RUN
 """
-import glob, json, os, shutil, sys, datetime
+import glob, json, os, re, shutil, sys, datetime
 
 arte, app_id, nom, publier, run_url = sys.argv[1:6]
 publier = publier == "true"
 dest = os.path.join("docs", "resultats", app_id)
 shutil.rmtree(dest, ignore_errors=True)
 os.makedirs(dest, exist_ok=True)
+
+PAQUET = re.compile(r"\b(?:[A-Za-z][A-Za-z0-9_]*\.){2,}[A-Za-z][A-Za-z0-9_]*\b")
+
+
+def propre(x):
+    """Efface tout nom technique d'appli (il peut contenir un nom propre)."""
+    if isinstance(x, str):
+        return PAQUET.sub("<appli>", x)
+    if isinstance(x, list):
+        return [propre(i) for i in x]
+    if isinstance(x, dict):
+        return {k: propre(v) for k, v in x.items()}
+    return x
+
 
 appareils, total = [], 0
 for d in sorted(glob.glob(os.path.join(arte, "resultats-*"))):
@@ -26,7 +40,7 @@ for d in sorted(glob.glob(os.path.join(arte, "resultats-*"))):
         if os.path.isdir(cap):
             shutil.copytree(cap, os.path.join(dest, nom_app, "captures"))
     appareils.append({"appareil": nom_app, "statut": "ok" if not defauts else "defaut",
-                      "defauts": defauts, "details": details})
+                      "defauts": propre(defauts), "details": details})
 
 res = {"app": nom, "id": app_id, "date": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
        "total_defauts": total, "captures_publiees": publier, "rapport_complet": run_url,

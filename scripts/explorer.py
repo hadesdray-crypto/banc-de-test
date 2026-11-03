@@ -12,7 +12,7 @@ MAX_STEPS = int(sys.argv[4]) if len(sys.argv) > 4 else 120
 SHOTS = os.path.join(OUT, "captures")
 os.makedirs(SHOTS, exist_ok=True)
 
-defects, screens, tapped, stats = [], {}, set(), []
+defects, screens, tapped, stats, known = [], {}, set(), [], []
 steps = 0
 
 
@@ -24,8 +24,13 @@ def adb(*a, timeout=30):
         return ""
 
 
+def scrub(t):
+    """Jamais le nom technique de l'appli dans un rapport (il peut contenir un nom propre)."""
+    return t.replace(PKG, "<appli>")
+
+
 def defect(kind, text):
-    d = {"type": kind, "detail": text, "etape": steps, "mode": LABEL}
+    d = {"type": kind, "detail": scrub(text), "etape": steps, "mode": LABEL}
     if d not in defects:
         defects.append(d)
         print("DEFAUT", kind, text, flush=True)
@@ -41,6 +46,28 @@ def shot(name):
     with open(p, "wb") as f:
         f.write(subprocess.run(["adb", "exec-out", "screencap", "-p"],
                                capture_output=True, timeout=30).stdout)
+
+
+def vis():
+    """Empreinte visuelle 8x8 de l'écran (None si Pillow absent)."""
+    try:
+        from PIL import Image
+        import io
+        png = subprocess.run(["adb", "exec-out", "screencap", "-p"], capture_output=True, timeout=30).stdout
+        im = Image.open(io.BytesIO(png)).convert("L").resize((8, 8))
+        px = list(im.getdata()); avg = sum(px) / 64
+        return sum(1 << i for i, v in enumerate(px) if v > avg)
+    except Exception:
+        return None
+
+
+def etat(sig, v):
+    """Numéro d'état d'écran : structure identique ET image proche, sinon nouvel état."""
+    for i, (s2, v2) in enumerate(known):
+        if s2 == sig and (v is None or v2 is None or bin(v ^ v2).count("1") <= 10):
+            return i, False
+    known.append((sig, v))
+    return len(known) - 1, True
 
 
 def focus_pkg():
@@ -59,15 +86,28 @@ LAST_LAUNCH = ""
 def launch():
     global LAST_LAUNCH
     LAST_LAUNCH = adb("shell", "monkey", "-p", PKG, "-c", "android.intent.category.LAUNCHER", "1")
+    for _ in range(25):
+        time.sleep(1)
+        if alive():
+            break
     time.sleep(3)
 
 
 def crash_summary():
-    """Résumé court (sans texte de l'appli) : classes d'erreur du dernier plantage."""
-    log = adb("logcat", "-d", "-b", "crash")
-    lines = [l.split(": ", 1)[-1].strip() for l in log.splitlines()
-             if "FATAL EXCEPTION" in l or "Exception" in l or "Error" in l or "Caused by" in l]
-    return " | ".join(lines[:4])[:400] or ("lancement : " + LAST_LAUNCH.strip().replace("\n", " ")[:200])
+    """Résumé court des causes probables (sans texte de l'appli)."""
+    pat = re.compile(r"FATAL|Exception|Caused by|has died|Force finishing|ANR|not responding|"
+                     r"Killing|SIGSEGV|Abort|lowmemory|denied|Permission|crash", re.I)
+    bits = []
+    for buf in ("crash", "main"):
+        for l in adb("logcat", "-d", "-b", buf, "-t", "400").splitlines():
+            if pat.search(l) and (PKG in l or buf == "crash" or "ActivityManager" in l):
+                bits.append(scrub(l.split(": ", 1)[-1].strip())[:140])
+    seen, out = set(), []
+    for b in bits:
+        if b not in seen:
+            seen.add(b); out.append(b)
+    txt = " | ".join(out[:6])
+    return (txt or "aucune cause trouvée dans le journal")[:600]
 
 
 def dump_ui():
@@ -172,17 +212,17 @@ def main():
         sig = hashlib.md5("|".join(sorted(
             "%s%s%s" % (n.get("class"), n.get("resource-id"), n.get("text"))
             for n, _ in items)).encode()).hexdigest()[:10]
-        new_screen = sig not in screens
+        sid, new_screen = etat(sig, vis())
         if new_screen:
-            screens[sig] = steps
+            screens[sid] = steps
             stale = 0
-            shot("%03d_ecran_%s" % (steps, sig))
+            shot("%03d_ecran_%d" % (steps, sid))
             stats.append({"noeuds": len(items), "cliquables": sum(1 for n, _ in items if n.get("clickable") == "true"),
                           "web": sum(1 for n, _ in items if n.get("web") == "1"),
                           "touchables": sum(1 for n, _ in items if tappable(n))})
             scratch(W, H)  # geste de grattage / glissement sur chaque nouvel écran
             if len(items) < 2:
-                defect("ecran_vide", "Écran presque vide (%s)." % sig)
+                defect("ecran_vide", "Écran presque vide (état %d)." % sid)
         # défauts d'affichage : boutons hors écran ou trop petits
         cands = []
         for n, (x1, y1, x2, y2) in items:
@@ -197,14 +237,14 @@ def main():
             if (x2 - x1) < 40 or (y2 - y1) < 40:
                 defect("bouton_trop_petit", "« %s » est trop petit pour un doigt." % lab[:40])
             if not (n.get("text") or n.get("content-desc")) and n.get("class", "").endswith("ImageView"):
-                defect("bouton_sans_nom", "Un bouton image n'a pas d'étiquette (%s)." % sig)
-            key = (sig, n.get("resource-id"), lab, x1, y1)
+                defect("bouton_sans_nom", "Un bouton image n'a pas d'étiquette (état %d)." % sid)
+            key = (sid, n.get("resource-id"), lab, x1, y1)
             if key not in tapped:
                 cands.append((key, (x1 + x2) // 2, (y1 + y2) // 2, n))
         # champs de texte : vide, accents, très long
         for n, (x1, y1, x2, y2) in items:
-            if n.get("class", "").endswith("EditText") and ("t", sig, x1, y1) not in tapped:
-                tapped.add(("t", sig, x1, y1))
+            if n.get("class", "").endswith("EditText") and ("t", sid, x1, y1) not in tapped:
+                tapped.add(("t", sid, x1, y1))
                 tap((x1 + x2) // 2, (y1 + y2) // 2)
                 adb("shell", "input", "text", "test%sAAAA" % ("A" * 250))
                 adb("shell", "input", "keyevent", "KEYCODE_ENTER")
@@ -218,8 +258,8 @@ def main():
                 launch()
             continue
         # repli humain : toucher une grille de points une fois par écran
-        if ("g", sig) not in tapped:
-            tapped.add(("g", sig))
+        if ("g", sid) not in tapped:
+            tapped.add(("g", sid))
             for gx in (0.25, 0.5, 0.75):
                 for gy in (0.2, 0.4, 0.6, 0.8):
                     tap(int(W * gx), int(H * gy))
