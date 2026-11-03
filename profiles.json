@@ -50,6 +50,23 @@
       "ram": 4096,
       "rapide": false,
       "experimental": true
+    },
+    {
+      "nom": "android14-gpu-guest",
+      "api": 34,
+      "profile": "pixel_5",
+      "ram": 4096,
+      "rapide": false,
+      "gpu": "guest"
+    },
+    {
+      "nom": "android14-aosp",
+      "api": 34,
+      "profile": "pixel_5",
+      "ram": 4096,
+      "rapide": false,
+      "target": "default",
+      "gpu": "guest"
     }
   ]
 }

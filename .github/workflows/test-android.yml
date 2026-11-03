@@ -21,7 +21,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: banc-de-test
+  group: banc-de-test-${{ github.run_id }}
   cancel-in-progress: false
 
 jobs:
@@ -84,7 +84,7 @@ jobs:
         run: |
           set +e
           for i in 1 2 3 4 5; do
-            yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "system-images;android-${{ matrix.api }};google_apis;x86_64" && exit 0
+            yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "system-images;android-${{ matrix.api }};${{ matrix.target || 'google_apis' }};x86_64" && exit 0
             echo "Tentative $i échouée, nouvelle tentative…"; sleep 20
           done
           exit 1
@@ -92,12 +92,12 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: ${{ matrix.api }}
-          target: google_apis
+          target: ${{ matrix.target || 'google_apis' }}
           arch: x86_64
           profile: ${{ matrix.profile }}
           ram-size: ${{ matrix.ram }}M
           disable-animations: false
-          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -no-snapshot -camera-back none
+          emulator-options: -no-window -gpu ${{ matrix.gpu || 'swiftshader_indirect' }} -noaudio -no-boot-anim -no-snapshot -camera-back none
           heap-size: 576M
           disk-size: 6G
           script: bash scripts/run_on_emulator.sh apk/app.apk ${{ matrix.nom }} out/${{ matrix.nom }}
