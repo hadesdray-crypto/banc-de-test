@@ -1,10 +1,10 @@
 {
  "app": "Footix",
  "id": "footdex",
- "date": "2026-11-03 17:02 UTC",
- "total_defauts": 16,
- "captures_publiees": false,
- "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41674964302",
+ "date": "2026-11-03 17:36 UTC",
+ "total_defauts": 21,
+ "captures_publiees": true,
+ "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41680571422",
  "appareils": [
   {
    "appareil": "android11-petit-telephone",
@@ -20,20 +20,37 @@
        "noeuds": 15,
        "cliquables": 0,
        "web": 7,
-       "touchables": 2
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
       }
      ]
     },
     "normal": {
-     "etapes": 15,
-     "ecrans_vus": 1,
-     "boutons_touches": 2,
+     "etapes": 16,
+     "ecrans_vus": 2,
+     "boutons_touches": 3,
      "structure_ecrans": [
+      {
+       "noeuds": 9,
+       "cliquables": 1,
+       "web": 1,
+       "touchables": 1,
+       "textes": []
+      },
       {
        "noeuds": 15,
        "cliquables": 0,
        "web": 7,
-       "touchables": 2
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
       }
      ]
     },
@@ -46,13 +63,23 @@
        "noeuds": 15,
        "cliquables": 0,
        "web": 7,
-       "touchables": 2
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
       },
       {
        "noeuds": 15,
        "cliquables": 0,
        "web": 7,
-       "touchables": 2
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
       }
      ]
     },
@@ -65,12 +92,17 @@
        "noeuds": 15,
        "cliquables": 0,
        "web": 7,
-       "touchables": 2
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
       }
      ]
     },
     "hasard_endurance": {
-     "memoire_mo": 84
+     "memoire_mo": 90
     }
    }
   },
@@ -85,6 +117,12 @@
      "mode": "horsconnexion"
     },
     {
+     "type": "diagnostic",
+     "detail": "abis= ## activite=",
+     "etape": 1,
+     "mode": "horsconnexion"
+    },
+    {
      "type": "plantage",
      "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
      "etape": 2,
@@ -93,18 +131,12 @@
     {
      "type": "plantage",
      "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
-     "etape": 5,
-     "mode": "normal"
+     "etape": 1,
+     "mode": "police200"
     },
     {
-     "type": "plantage",
-     "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
-     "etape": 6,
-     "mode": "normal"
-    },
-    {
-     "type": "plantage",
-     "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
+     "type": "diagnostic",
+     "detail": "abis= ## activite=",
      "etape": 1,
      "mode": "police200"
     },
@@ -117,6 +149,12 @@
     {
      "type": "plantage",
      "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
+     "etape": 1,
+     "mode": "paysage"
+    },
+    {
+     "type": "diagnostic",
+     "detail": "abis= ## activite=",
      "etape": 1,
      "mode": "paysage"
     },
@@ -129,25 +167,33 @@
    ],
    "details": {
     "horsconnexion": {
-     "etapes": 3,
+     "etapes": 2,
      "ecrans_vus": 0,
      "boutons_touches": 0,
      "structure_ecrans": []
     },
     "normal": {
-     "etapes": 7,
-     "ecrans_vus": 0,
+     "etapes": 1,
+     "ecrans_vus": 1,
      "boutons_touches": 0,
-     "structure_ecrans": []
+     "structure_ecrans": [
+      {
+       "noeuds": 3,
+       "cliquables": 0,
+       "web": 0,
+       "touchables": 0,
+       "textes": []
+      }
+     ]
     },
     "police200": {
-     "etapes": 3,
+     "etapes": 2,
      "ecrans_vus": 0,
      "boutons_touches": 0,
      "structure_ecrans": []
     },
     "paysage": {
-     "etapes": 3,
+     "etapes": 2,
      "ecrans_vus": 0,
      "boutons_touches": 0,
      "structure_ecrans": []
@@ -168,6 +214,12 @@
      "mode": "horsconnexion"
     },
     {
+     "type": "diagnostic",
+     "detail": "abis= ## activite=",
+     "etape": 1,
+     "mode": "horsconnexion"
+    },
+    {
      "type": "plantage",
      "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
      "etape": 2,
@@ -176,6 +228,12 @@
     {
      "type": "plantage",
      "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
+     "etape": 2,
+     "mode": "normal"
+    },
+    {
+     "type": "diagnostic",
+     "detail": "abis= ## activite=",
      "etape": 2,
      "mode": "normal"
     },
@@ -192,6 +250,12 @@
      "mode": "police200"
     },
     {
+     "type": "diagnostic",
+     "detail": "abis= ## activite=",
+     "etape": 1,
+     "mode": "police200"
+    },
+    {
      "type": "plantage",
      "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
      "etape": 2,
@@ -204,6 +268,12 @@
      "mode": "paysage"
     },
     {
+     "type": "diagnostic",
+     "detail": "abis= ## activite=",
+     "etape": 1,
+     "mode": "paysage"
+    },
+    {
      "type": "plantage",
      "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
      "etape": 2,
@@ -212,25 +282,25 @@
    ],
    "details": {
     "horsconnexion": {
-     "etapes": 3,
+     "etapes": 2,
      "ecrans_vus": 0,
      "boutons_touches": 0,
      "structure_ecrans": []
     },
     "normal": {
-     "etapes": 4,
+     "etapes": 3,
      "ecrans_vus": 0,
      "boutons_touches": 0,
      "structure_ecrans": []
     },
     "police200": {
-     "etapes": 3,
+     "etapes": 2,
      "ecrans_vus": 0,
      "boutons_touches": 0,
      "structure_ecrans": []
     },
     "paysage": {
-     "etapes": 3,
+     "etapes": 2,
      "ecrans_vus": 0,
      "boutons_touches": 0,
      "structure_ecrans": []
