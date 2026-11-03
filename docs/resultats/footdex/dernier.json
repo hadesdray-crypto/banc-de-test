@@ -1,0 +1,178 @@
+{
+ "app": "Footix",
+ "id": "footdex",
+ "date": "2026-11-03 15:19 UTC",
+ "total_defauts": 20,
+ "captures_publiees": false,
+ "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41654322086",
+ "appareils": [
+  {
+   "appareil": "android11-petit-telephone",
+   "statut": "ok",
+   "defauts": [],
+   "details": {
+    "horsconnexion": {
+     "etapes": 12,
+     "ecrans_vus": 1,
+     "boutons_touches": 0
+    },
+    "normal": {
+     "etapes": 15,
+     "ecrans_vus": 2,
+     "boutons_touches": 1
+    },
+    "police200": {
+     "etapes": 12,
+     "ecrans_vus": 1,
+     "boutons_touches": 0
+    },
+    "paysage": {
+     "etapes": 12,
+     "ecrans_vus": 1,
+     "boutons_touches": 0
+    },
+    "hasard_endurance": {
+     "memoire_mo": 102
+    }
+   }
+  },
+  {
+   "appareil": "android14-telephone",
+   "statut": "defaut",
+   "defauts": [
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 5,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 6,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 7,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 8,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 9,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 10,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 11,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 12,
+     "mode": "normal"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 1,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 2,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 3,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 4,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 5,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 6,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 7,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 8,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 9,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 10,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 11,
+     "mode": "police200"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue.",
+     "etape": 12,
+     "mode": "police200"
+    }
+   ],
+   "details": {
+    "normal": {
+     "etapes": 12,
+     "ecrans_vus": 0,
+     "boutons_touches": 0
+    },
+    "police200": {
+     "etapes": 12,
+     "ecrans_vus": 0,
+     "boutons_touches": 0
+    }
+   }
+  }
+ ]
+}
