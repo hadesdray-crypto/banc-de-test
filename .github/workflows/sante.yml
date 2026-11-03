@@ -1,0 +1,63 @@
+name: Santé des émulateurs (expérience)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer l'APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p apk
+          gh release download --repo hadesdray-crypto/footdex --pattern '*.apk' --dir apk --clobber
+          mv apk/*.apk apk/app.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: apk
+          path: apk/app.apk
+
+  sante:
+    needs: apk
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        include: [{"id": "api31-sw", "api": 31, "opts": "-gpu swiftshader_indirect -feature -Vulkan"}, {"id": "api31-sw-vk", "api": 31, "opts": "-gpu swiftshader_indirect"}, {"id": "api31-angle", "api": 31, "opts": "-gpu angle_indirect"}, {"id": "api31-guest", "api": 31, "opts": "-gpu guest"}, {"id": "api33-sw", "api": 33, "opts": "-gpu swiftshader_indirect -feature -Vulkan"}, {"id": "api33-sw-vk", "api": 33, "opts": "-gpu swiftshader_indirect"}, {"id": "api33-angle", "api": 33, "opts": "-gpu angle_indirect"}, {"id": "api33-guest", "api": 33, "opts": "-gpu guest"}, {"id": "api34-sw", "api": 34, "opts": "-gpu swiftshader_indirect -feature -Vulkan"}, {"id": "api34-sw-vk", "api": 34, "opts": "-gpu swiftshader_indirect"}, {"id": "api34-angle", "api": 34, "opts": "-gpu angle_indirect"}, {"id": "api34-guest", "api": 34, "opts": "-gpu guest"}]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: apk
+          path: apk
+      - name: Activer l'accélération matérielle (KVM)
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Télécharger l'image Android
+        run: |
+          set +e
+          for i in 1 2 3 4 5; do
+            yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "system-images;android-${{ matrix.api }};google_apis;x86_64" && exit 0
+            sleep 20
+          done
+          exit 1
+      - name: Santé ${{ matrix.id }}
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ matrix.api }}
+          target: google_apis
+          arch: x86_64
+          profile: pixel_5
+          ram-size: 4096M
+          heap-size: 576M
+          disable-animations: false
+          emulator-options: -no-window ${{ matrix.opts }} -noaudio -no-boot-anim -no-snapshot -camera-back none
+          script: bash scripts/sante.sh apk/app.apk
