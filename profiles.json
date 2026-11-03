@@ -1,47 +1,53 @@
 {
-  "_aide": "Appareils virtuels. 'rapide' = série courte, 'complet' = toute la matrice. Les modèles de marque (Samsung, Xiaomi...) n'existent pas en émulateur : on couvre leurs tailles d'écran et versions Android.",
+  "_aide": "Appareils virtuels. 'rapide' = série courte, 'complet' = toute la matrice. Les modèles de marque (Samsung, Xiaomi...) n'existent pas en émulateur : on couvre leurs tailles d'écran et versions Android. 'opts' : mode graphique de l'émulateur. Android 13+ exige angle_indirect : avec les autres modes l'émulateur se fige quand l'appli s'ouvre (expérience du 03/11/2026).",
   "appareils": [
     {
       "nom": "android11-petit-telephone",
       "api": 30,
       "profile": "Nexus 5",
       "ram": 1536,
-      "rapide": true
+      "rapide": true,
+      "opts": "-gpu swiftshader_indirect -feature -Vulkan"
     },
     {
       "nom": "android14-telephone",
       "api": 34,
       "profile": "pixel_5",
       "ram": 4096,
-      "rapide": true
+      "rapide": true,
+      "opts": "-gpu angle_indirect"
     },
     {
       "nom": "android15-tablette",
       "api": 35,
       "profile": "pixel_c",
       "ram": 4096,
-      "rapide": true
+      "rapide": true,
+      "opts": "-gpu angle_indirect"
     },
     {
       "nom": "android12-telephone",
       "api": 31,
       "profile": "pixel_6",
       "ram": 3072,
-      "rapide": false
+      "rapide": false,
+      "opts": "-gpu swiftshader_indirect -feature -Vulkan"
     },
     {
       "nom": "android13-telephone",
       "api": 33,
       "profile": "pixel_5",
       "ram": 3072,
-      "rapide": false
+      "rapide": false,
+      "opts": "-gpu angle_indirect"
     },
     {
       "nom": "android14-pliable",
       "api": 34,
       "profile": "pixel_fold",
       "ram": 4096,
-      "rapide": false
+      "rapide": false,
+      "opts": "-gpu angle_indirect"
     },
     {
       "nom": "android16-telephone",
@@ -49,24 +55,8 @@
       "profile": "pixel_6",
       "ram": 4096,
       "rapide": false,
-      "experimental": true
-    },
-    {
-      "nom": "android14-gpu-guest",
-      "api": 34,
-      "profile": "pixel_5",
-      "ram": 4096,
-      "rapide": false,
-      "gpu": "guest"
-    },
-    {
-      "nom": "android14-aosp",
-      "api": 34,
-      "profile": "pixel_5",
-      "ram": 4096,
-      "rapide": false,
-      "target": "default",
-      "gpu": "guest"
+      "experimental": true,
+      "opts": "-gpu angle_indirect"
     }
   ]
 }

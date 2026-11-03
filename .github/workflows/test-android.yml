@@ -97,7 +97,7 @@ jobs:
           profile: ${{ matrix.profile }}
           ram-size: ${{ matrix.ram }}M
           disable-animations: false
-          emulator-options: -no-window -gpu ${{ matrix.gpu || 'swiftshader_indirect' }} -noaudio -no-boot-anim -no-snapshot -feature -Vulkan -camera-back none
+          emulator-options: -no-window ${{ matrix.opts || '-gpu swiftshader_indirect' }} -noaudio -no-boot-anim -no-snapshot -camera-back none
           heap-size: 576M
           disk-size: 6G
           script: bash scripts/run_on_emulator.sh apk/app.apk ${{ matrix.nom }} out/${{ matrix.nom }}
