@@ -1,10 +1,10 @@
 {
  "app": "Footix",
  "id": "footdex",
- "date": "2026-11-03 18:29 UTC",
- "total_defauts": 1,
+ "date": "2026-11-03 18:32 UTC",
+ "total_defauts": 2,
  "captures_publiees": true,
- "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41691801838",
+ "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41691827513",
  "appareils": [
   {
    "appareil": "android13-telephone",
@@ -115,6 +115,77 @@
     },
     "normal": {
      "etapes": 1,
+     "ecrans_vus": 0,
+     "boutons_touches": 0,
+     "structure_ecrans": []
+    },
+    "police200": {
+     "etapes": 1,
+     "ecrans_vus": 0,
+     "boutons_touches": 0,
+     "structure_ecrans": []
+    },
+    "paysage": {
+     "etapes": 1,
+     "ecrans_vus": 0,
+     "boutons_touches": 0,
+     "structure_ecrans": []
+    },
+    "hasard_endurance": {
+     "memoire_mo": null
+    }
+   }
+  },
+  {
+   "appareil": "android15-tablette",
+   "statut": "defaut",
+   "defauts": [
+    {
+     "type": "infra",
+     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 996 10802 48 4572 14986] qemu=1 noyau[]",
+     "etape": 1,
+     "mode": "horsconnexion"
+    },
+    {
+     "type": "plantage",
+     "detail": "L'appli est fermée de façon inattendue. aucune cause trouvée dans le journal",
+     "etape": 1,
+     "mode": "normal"
+    },
+    {
+     "type": "diagnostic",
+     "detail": "android= abis= ## activite=",
+     "etape": 1,
+     "mode": "normal"
+    },
+    {
+     "type": "infra",
+     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 997 10804 48 4567 14985] qemu=1 noyau[]",
+     "etape": 2,
+     "mode": "normal"
+    },
+    {
+     "type": "infra",
+     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 996 10802 48 4572 14986] qemu=1 noyau[]",
+     "etape": 1,
+     "mode": "police200"
+    },
+    {
+     "type": "infra",
+     "detail": "Émulateur injoignable (problème du banc de test, pas de l'appli). Hôte : mem[Mem: 15983 990 10808 48 4572 14992] qemu=1 noyau[]",
+     "etape": 1,
+     "mode": "paysage"
+    }
+   ],
+   "details": {
+    "horsconnexion": {
+     "etapes": 1,
+     "ecrans_vus": 0,
+     "boutons_touches": 0,
+     "structure_ecrans": []
+    },
+    "normal": {
+     "etapes": 2,
      "ecrans_vus": 0,
      "boutons_touches": 0,
      "structure_ecrans": []
