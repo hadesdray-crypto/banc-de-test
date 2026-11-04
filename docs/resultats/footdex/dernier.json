@@ -1,10 +1,10 @@
 {
  "app": "Footix",
  "id": "footdex",
- "date": "2026-11-03 21:02 UTC",
- "total_defauts": 2,
+ "date": "2026-11-04 11:24 UTC",
+ "total_defauts": 3,
  "captures_publiees": true,
- "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41711372801",
+ "rapport_complet": "https://github.com/hadesdray-crypto/banc-de-test/actions/runs/41813975108",
  "appareils": [
   {
    "appareil": "android13-telephone",
@@ -13,14 +13,14 @@
    "details": {
     "horsconnexion": {
      "etapes": 50,
-     "ecrans_vus": 23,
+     "ecrans_vus": 15,
      "boutons_touches": 50,
      "structure_ecrans": [
       {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
+       "noeuds": 178,
+       "cliquables": 38,
+       "web": 170,
+       "touchables": 141,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -37,617 +37,9 @@
        ]
       },
       {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 190,
-       "cliquables": 45,
-       "web": 182,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      }
-     ]
-    },
-    "normal": {
-     "etapes": 45,
-     "ecrans_vus": 38,
-     "boutons_touches": 44,
-     "structure_ecrans": [
-      {
-       "noeuds": 9,
-       "cliquables": 1,
-       "web": 1,
-       "touchables": 1,
-       "textes": []
-      },
-      {
-       "noeuds": 170,
-       "cliquables": 36,
-       "web": 162,
-       "touchables": 137,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 122,
-       "cliquables": 31,
-       "web": 114,
-       "touchables": 99,
-       "textes": [
-        "Découvrir · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "EXPLORE LE FOOTBALL",
-        "DÉCOUVRIR",
-        "Des matchs racontés, des",
-        "Surprends-moi : un match"
-       ]
-      },
-      {
-       "noeuds": 107,
-       "cliquables": 20,
-       "web": 99,
-       "touchables": 74,
-       "textes": [
-        "Classeur · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "COLLECTION",
-        "TON CLASSEUR",
-        "Tes cartes, l'album à co",
-        "CARTES DIFFÉRENTES"
-       ]
-      },
-      {
-       "noeuds": 170,
-       "cliquables": 36,
-       "web": 162,
-       "touchables": 137,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      }
-     ]
-    },
-    "police200": {
-     "etapes": 50,
-     "ecrans_vus": 7,
-     "boutons_touches": 50,
-     "structure_ecrans": [
-      {
-       "noeuds": 194,
-       "cliquables": 39,
-       "web": 186,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 171,
-       "cliquables": 37,
-       "web": 163,
-       "touchables": 138,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 143,
-       "cliquables": 18,
-       "web": 135,
-       "touchables": 97,
-       "textes": [
-        "Diego Maradona · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Tous les joueurs",
-        "Carte Légende : Diego Ma",
-        "Portrait de Diego Marado",
-        "MIL"
-       ]
-      },
-      {
-       "noeuds": 108,
-       "cliquables": 21,
-       "web": 100,
-       "touchables": 75,
-       "textes": [
-        "Classeur · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "COLLECTION",
-        "TON CLASSEUR",
-        "Tes cartes, l'album à co",
-        "CARTES DIFFÉRENTES"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 151,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 192,
-       "cliquables": 46,
-       "web": 184,
-       "touchables": 154,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      }
-     ]
-    },
-    "paysage": {
-     "etapes": 50,
-     "ecrans_vus": 13,
-     "boutons_touches": 50,
-     "structure_ecrans": [
-      {
-       "noeuds": 194,
-       "cliquables": 39,
-       "web": 186,
+       "noeuds": 195,
+       "cliquables": 38,
+       "web": 187,
        "touchables": 152,
        "textes": [
         "Footdex",
@@ -705,12 +97,12 @@
        ]
       },
       {
-       "noeuds": 174,
-       "cliquables": 38,
-       "web": 166,
-       "touchables": 140,
+       "noeuds": 108,
+       "cliquables": 21,
+       "web": 100,
+       "touchables": 75,
        "textes": [
-        "Footdex",
+        "Classeur · Footdex",
         "Footdex, retour à l'accu",
         "FOOTDEX",
         "POUR RAPHAËL",
@@ -718,17 +110,17 @@
         "Signaler une erreur ou p",
         "Son activé : appuie pour",
         "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
+        "COLLECTION",
+        "TON CLASSEUR",
+        "Tes cartes, l'album à co",
+        "CARTES DIFFÉRENTES"
        ]
       },
       {
-       "noeuds": 108,
-       "cliquables": 21,
-       "web": 100,
-       "touchables": 75,
+       "noeuds": 111,
+       "cliquables": 22,
+       "web": 103,
+       "touchables": 77,
        "textes": [
         "Classeur · Footdex",
         "Footdex, retour à l'accu",
@@ -789,517 +181,6 @@
        "cliquables": 45,
        "web": 181,
        "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      }
-     ]
-    },
-    "hasard_endurance": {
-     "memoire_mo": 100
-    }
-   }
-  },
-  {
-   "appareil": "android14-telephone",
-   "statut": "ok",
-   "defauts": [],
-   "details": {
-    "horsconnexion": {
-     "etapes": 50,
-     "ecrans_vus": 13,
-     "boutons_touches": 50,
-     "structure_ecrans": [
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 190,
-       "cliquables": 45,
-       "web": 182,
-       "touchables": 153,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 198,
-       "cliquables": 48,
-       "web": 190,
-       "touchables": 158,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 195,
-       "cliquables": 47,
-       "web": 187,
-       "touchables": 156,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      }
-     ]
-    },
-    "normal": {
-     "etapes": 51,
-     "ecrans_vus": 31,
-     "boutons_touches": 50,
-     "structure_ecrans": [
-      {
-       "noeuds": 9,
-       "cliquables": 1,
-       "web": 1,
-       "touchables": 1,
-       "textes": []
-      },
-      {
-       "noeuds": 170,
-       "cliquables": 36,
-       "web": 162,
-       "touchables": 137,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 122,
-       "cliquables": 31,
-       "web": 114,
-       "touchables": 99,
-       "textes": [
-        "Découvrir · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "EXPLORE LE FOOTBALL",
-        "DÉCOUVRIR",
-        "Des matchs racontés, des",
-        "Surprends-moi : un match"
-       ]
-      },
-      {
-       "noeuds": 107,
-       "cliquables": 20,
-       "web": 99,
-       "touchables": 74,
-       "textes": [
-        "Classeur · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "COLLECTION",
-        "TON CLASSEUR",
-        "Tes cartes, l'album à co",
-        "CARTES DIFFÉRENTES"
-       ]
-      },
-      {
-       "noeuds": 170,
-       "cliquables": 36,
-       "web": 162,
-       "touchables": 137,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 192,
-       "cliquables": 46,
-       "web": 184,
-       "touchables": 154,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -1403,10 +284,10 @@
        ]
       },
       {
-       "noeuds": 173,
-       "cliquables": 37,
-       "web": 165,
-       "touchables": 138,
+       "noeuds": 185,
+       "cliquables": 39,
+       "web": 177,
+       "touchables": 146,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -1443,12 +324,12 @@
        ]
       },
       {
-       "noeuds": 143,
-       "cliquables": 18,
-       "web": 135,
-       "touchables": 97,
+       "noeuds": 171,
+       "cliquables": 19,
+       "web": 163,
+       "touchables": 122,
        "textes": [
-        "Diego Maradona · Footdex",
+        "Kylian Mbappé · Footdex",
         "Footdex, retour à l'accu",
         "FOOTDEX",
         "POUR RAPHAËL",
@@ -1457,9 +338,9 @@
         "Son activé : appuie pour",
         "Moi et paramètres",
         "Tous les joueurs",
-        "Carte Légende : Diego Ma",
-        "Portrait de Diego Marado",
-        "MIL"
+        "Carte Éclat : Kylian Mba",
+        "Portrait de Kylian Mbapp",
+        "Note du jeu vidéo EA Spo"
        ]
       },
       {
@@ -1487,253 +368,6 @@
        "cliquables": 37,
        "web": 163,
        "touchables": 138,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      }
-     ]
-    },
-    "paysage": {
-     "etapes": 50,
-     "ecrans_vus": 14,
-     "boutons_touches": 50,
-     "structure_ecrans": [
-      {
-       "noeuds": 194,
-       "cliquables": 39,
-       "web": 186,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 171,
-       "cliquables": 37,
-       "web": 163,
-       "touchables": 138,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 123,
-       "cliquables": 32,
-       "web": 115,
-       "touchables": 100,
-       "textes": [
-        "Découvrir · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "EXPLORE LE FOOTBALL",
-        "DÉCOUVRIR",
-        "Des matchs racontés, des",
-        "Surprends-moi : un match"
-       ]
-      },
-      {
-       "noeuds": 126,
-       "cliquables": 33,
-       "web": 118,
-       "touchables": 102,
-       "textes": [
-        "Découvrir · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "EXPLORE LE FOOTBALL",
-        "DÉCOUVRIR",
-        "Des matchs racontés, des",
-        "Surprends-moi : un match"
-       ]
-      },
-      {
-       "noeuds": 108,
-       "cliquables": 21,
-       "web": 100,
-       "touchables": 75,
-       "textes": [
-        "Classeur · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "COLLECTION",
-        "TON CLASSEUR",
-        "Tes cartes, l'album à co",
-        "CARTES DIFFÉRENTES"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 151,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 189,
-       "cliquables": 45,
-       "web": 181,
-       "touchables": 152,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -1812,7 +446,1406 @@
      ]
     },
     "hasard_endurance": {
-     "memoire_mo": 103
+     "memoire_mo": 89
+    },
+    "sombre": {
+     "etapes": 40,
+     "ecrans_vus": 25,
+     "boutons_touches": 40,
+     "structure_ecrans": [
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "petit_ecran": {
+     "etapes": 40,
+     "ecrans_vus": 3,
+     "boutons_touches": 38,
+     "structure_ecrans": [
+      {
+       "noeuds": 195,
+       "cliquables": 47,
+       "web": 187,
+       "touchables": 156,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 195,
+       "cliquables": 47,
+       "web": 187,
+       "touchables": 156,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 198,
+       "cliquables": 48,
+       "web": 190,
+       "touchables": 158,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "normal": {
+     "etapes": 52,
+     "ecrans_vus": 30,
+     "boutons_touches": 51,
+     "structure_ecrans": [
+      {
+       "noeuds": 9,
+       "cliquables": 1,
+       "web": 1,
+       "touchables": 1,
+       "textes": []
+      },
+      {
+       "noeuds": 170,
+       "cliquables": 36,
+       "web": 162,
+       "touchables": 137,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 122,
+       "cliquables": 31,
+       "web": 114,
+       "touchables": 99,
+       "textes": [
+        "Découvrir · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "EXPLORE LE FOOTBALL",
+        "DÉCOUVRIR",
+        "Des matchs racontés, des",
+        "Surprends-moi : un match"
+       ]
+      },
+      {
+       "noeuds": 107,
+       "cliquables": 20,
+       "web": 99,
+       "touchables": 74,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "COLLECTION",
+        "TON CLASSEUR",
+        "Tes cartes, l'album à co",
+        "CARTES DIFFÉRENTES"
+       ]
+      },
+      {
+       "noeuds": 170,
+       "cliquables": 36,
+       "web": 162,
+       "touchables": 137,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "scenarios": {
+     "scenarios": [
+      {
+       "nom": "maison_et_reprise",
+       "resultat": "ok"
+      },
+      {
+       "nom": "fermee_puis_relancee",
+       "resultat": "ok"
+      },
+      {
+       "nom": "bouton_retour",
+       "resultat": "ok"
+      },
+      {
+       "nom": "rotation_rapide",
+       "resultat": "ok"
+      },
+      {
+       "nom": "memoire_faible",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mise_a_jour_sur_place",
+       "resultat": "ok"
+      },
+      {
+       "nom": "stockage_plein",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mode_avion_puis_retour_reseau",
+       "resultat": "ok"
+      }
+     ]
+    },
+    "paysage": {
+     "etapes": 50,
+     "ecrans_vus": 3,
+     "boutons_touches": 50,
+     "structure_ecrans": [
+      {
+       "noeuds": 185,
+       "cliquables": 39,
+       "web": 177,
+       "touchables": 146,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 188,
+       "cliquables": 40,
+       "web": 180,
+       "touchables": 148,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 178,
+       "cliquables": 38,
+       "web": 170,
+       "touchables": 141,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "appareil": "android14-telephone",
+   "statut": "ok",
+   "defauts": [],
+   "details": {
+    "horsconnexion": {
+     "etapes": 50,
+     "ecrans_vus": 2,
+     "boutons_touches": 50,
+     "structure_ecrans": [
+      {
+       "noeuds": 206,
+       "cliquables": 39,
+       "web": 198,
+       "touchables": 158,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 209,
+       "cliquables": 40,
+       "web": 201,
+       "touchables": 160,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "police200": {
+     "etapes": 50,
+     "ecrans_vus": 11,
+     "boutons_touches": 50,
+     "structure_ecrans": [
+      {
+       "noeuds": 171,
+       "cliquables": 37,
+       "web": 163,
+       "touchables": 134,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 170,
+       "cliquables": 37,
+       "web": 162,
+       "touchables": 133,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 156,
+       "cliquables": 35,
+       "web": 148,
+       "touchables": 125,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 171,
+       "cliquables": 19,
+       "web": 163,
+       "touchables": 122,
+       "textes": [
+        "Kylian Mbappé · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Tous les joueurs",
+        "Carte Éclat : Kylian Mba",
+        "Portrait de Kylian Mbapp",
+        "Note du jeu vidéo EA Spo"
+       ]
+      },
+      {
+       "noeuds": 171,
+       "cliquables": 37,
+       "web": 163,
+       "touchables": 138,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 174,
+       "cliquables": 38,
+       "web": 166,
+       "touchables": 140,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 108,
+       "cliquables": 21,
+       "web": 100,
+       "touchables": 75,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "COLLECTION",
+        "TON CLASSEUR",
+        "Tes cartes, l'album à co",
+        "CARTES DIFFÉRENTES"
+       ]
+      },
+      {
+       "noeuds": 171,
+       "cliquables": 37,
+       "web": 163,
+       "touchables": 138,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "hasard_endurance": {
+     "memoire_mo": 92
+    },
+    "sombre": {
+     "etapes": 40,
+     "ecrans_vus": 3,
+     "boutons_touches": 40,
+     "structure_ecrans": [
+      {
+       "noeuds": 206,
+       "cliquables": 39,
+       "web": 198,
+       "touchables": 158,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 207,
+       "cliquables": 39,
+       "web": 199,
+       "touchables": 158,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 209,
+       "cliquables": 40,
+       "web": 201,
+       "touchables": 160,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "petit_ecran": {
+     "etapes": 40,
+     "ecrans_vus": 3,
+     "boutons_touches": 40,
+     "structure_ecrans": [
+      {
+       "noeuds": 215,
+       "cliquables": 42,
+       "web": 207,
+       "touchables": 164,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 212,
+       "cliquables": 41,
+       "web": 204,
+       "touchables": 162,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 216,
+       "cliquables": 43,
+       "web": 208,
+       "touchables": 165,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "normal": {
+     "etapes": 37,
+     "ecrans_vus": 29,
+     "boutons_touches": 36,
+     "structure_ecrans": [
+      {
+       "noeuds": 170,
+       "cliquables": 36,
+       "web": 162,
+       "touchables": 137,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 122,
+       "cliquables": 31,
+       "web": 114,
+       "touchables": 99,
+       "textes": [
+        "Découvrir · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "EXPLORE LE FOOTBALL",
+        "DÉCOUVRIR",
+        "Des matchs racontés, des",
+        "Surprends-moi : un match"
+       ]
+      },
+      {
+       "noeuds": 107,
+       "cliquables": 20,
+       "web": 99,
+       "touchables": 74,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "COLLECTION",
+        "TON CLASSEUR",
+        "Tes cartes, l'album à co",
+        "CARTES DIFFÉRENTES"
+       ]
+      },
+      {
+       "noeuds": 170,
+       "cliquables": 36,
+       "web": 162,
+       "touchables": 137,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 192,
+       "cliquables": 46,
+       "web": 184,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 189,
+       "cliquables": 45,
+       "web": 181,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "scenarios": {
+     "scenarios": [
+      {
+       "nom": "maison_et_reprise",
+       "resultat": "ok"
+      },
+      {
+       "nom": "fermee_puis_relancee",
+       "resultat": "ok"
+      },
+      {
+       "nom": "bouton_retour",
+       "resultat": "ok"
+      },
+      {
+       "nom": "rotation_rapide",
+       "resultat": "ok"
+      },
+      {
+       "nom": "memoire_faible",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mise_a_jour_sur_place",
+       "resultat": "ok"
+      },
+      {
+       "nom": "stockage_plein",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mode_avion_puis_retour_reseau",
+       "resultat": "ok"
+      }
+     ]
+    },
+    "paysage": {
+     "etapes": 50,
+     "ecrans_vus": 2,
+     "boutons_touches": 50,
+     "structure_ecrans": [
+      {
+       "noeuds": 206,
+       "cliquables": 39,
+       "web": 198,
+       "touchables": 158,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 209,
+       "cliquables": 40,
+       "web": 201,
+       "touchables": 160,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
     }
    }
   },
@@ -1823,89 +1856,9 @@
    "details": {
     "horsconnexion": {
      "etapes": 50,
-     "ecrans_vus": 16,
+     "ecrans_vus": 15,
      "boutons_touches": 50,
      "structure_ecrans": [
-      {
-       "noeuds": 417,
-       "cliquables": 75,
-       "web": 411,
-       "touchables": 347,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 180,
-       "cliquables": 36,
-       "web": 174,
-       "touchables": 146,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 111,
-       "cliquables": 21,
-       "web": 105,
-       "touchables": 77,
-       "textes": [
-        "Classeur · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "COLLECTION",
-        "TON CLASSEUR"
-       ]
-      },
-      {
-       "noeuds": 200,
-       "cliquables": 44,
-       "web": 194,
-       "touchables": 160,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
       {
        "noeuds": 180,
        "cliquables": 36,
@@ -1947,10 +1900,110 @@
        ]
       },
       {
+       "noeuds": 180,
+       "cliquables": 36,
+       "web": 174,
+       "touchables": 146,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 180,
+       "cliquables": 36,
+       "web": 174,
+       "touchables": 146,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 108,
+       "cliquables": 20,
+       "web": 102,
+       "touchables": 75,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "COLLECTION",
+        "TON CLASSEUR"
+       ]
+      },
+      {
        "noeuds": 200,
        "cliquables": 44,
        "web": 194,
        "touchables": 160,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 66,
+       "cliquables": 17,
+       "web": 60,
+       "touchables": 42,
+       "textes": [
+        "Moi · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "MON COIN",
+        "MOI"
+       ]
+      },
+      {
+       "noeuds": 182,
+       "cliquables": 36,
+       "web": 176,
+       "touchables": 146,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -1979,31 +2032,11 @@
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
         "Moi et paramètres",
         "Chercher un joueur",
         "Footdex",
         "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 64,
-       "cliquables": 17,
-       "web": 58,
-       "touchables": 42,
-       "textes": [
-        "Moi · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "MON COIN",
-        "MOI"
        ]
       },
       {
@@ -2019,31 +2052,11 @@
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
         "Moi et paramètres",
         "Chercher un joueur",
         "RAYON JOUEURS",
         "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 257,
-       "cliquables": 67,
-       "web": 251,
-       "touchables": 237,
-       "textes": [
-        "Histoires · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "ÇA SE RACONTE",
-        "LES HISTOIRES"
        ]
       },
       {
@@ -2059,238 +2072,11 @@
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      }
-     ]
-    },
-    "normal": {
-     "etapes": 120,
-     "ecrans_vus": 30,
-     "boutons_touches": 120,
-     "structure_ecrans": [
-      {
-       "noeuds": 179,
-       "cliquables": 36,
-       "web": 173,
-       "touchables": 146,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
         "Son activé : appuie pour",
         "Moi et paramètres",
         "Chercher un joueur",
         "Footdex",
         "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 107,
-       "cliquables": 20,
-       "web": 101,
-       "touchables": 75,
-       "textes": [
-        "Classeur · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "COLLECTION",
-        "TON CLASSEUR"
-       ]
-      },
-      {
-       "noeuds": 200,
-       "cliquables": 44,
-       "web": 194,
-       "touchables": 160,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 180,
-       "cliquables": 36,
-       "web": 174,
-       "touchables": 146,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 108,
-       "cliquables": 20,
-       "web": 102,
-       "touchables": 75,
-       "textes": [
-        "Classeur · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "COLLECTION",
-        "TON CLASSEUR"
-       ]
-      },
-      {
-       "noeuds": 203,
-       "cliquables": 45,
-       "web": 197,
-       "touchables": 162,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 180,
-       "cliquables": 36,
-       "web": 174,
-       "touchables": 146,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 108,
-       "cliquables": 20,
-       "web": 102,
-       "touchables": 75,
-       "textes": [
-        "Classeur · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "COLLECTION",
-        "TON CLASSEUR"
-       ]
-      },
-      {
-       "noeuds": 200,
-       "cliquables": 44,
-       "web": 194,
-       "touchables": 160,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 64,
-       "cliquables": 17,
-       "web": 58,
-       "touchables": 42,
-       "textes": [
-        "Moi · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "MON COIN",
-        "MOI"
-       ]
-      },
-      {
-       "noeuds": 74,
-       "cliquables": 27,
-       "web": 68,
-       "touchables": 52,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
        ]
       },
       {
@@ -2317,13 +2103,93 @@
     },
     "police200": {
      "etapes": 50,
-     "ecrans_vus": 3,
+     "ecrans_vus": 5,
      "boutons_touches": 50,
      "structure_ecrans": [
       {
-       "noeuds": 205,
+       "noeuds": 197,
        "cliquables": 38,
-       "web": 199,
+       "web": 191,
+       "touchables": 155,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "0 pièces, ouvrir la bout",
+        "0",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 188,
+       "cliquables": 36,
+       "web": 182,
+       "touchables": 150,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "0 pièces, ouvrir la bout",
+        "0",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 188,
+       "cliquables": 37,
+       "web": 182,
+       "touchables": 150,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "0 pièces, ouvrir la bout",
+        "0",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 38,
+       "web": 185,
+       "touchables": 152,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "0 pièces, ouvrir la bout",
+        "0",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 204,
+       "cliquables": 37,
+       "web": 198,
        "touchables": 160,
        "textes": [
         "Footdex",
@@ -2333,47 +2199,7 @@
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 187,
-       "cliquables": 37,
-       "web": 181,
-       "touchables": 149,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 201,
-       "cliquables": 37,
-       "web": 195,
-       "touchables": 158,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
         "Moi et paramètres",
         "Chercher un joueur",
         "Footdex",
@@ -2382,11 +2208,175 @@
       }
      ]
     },
-    "paysage": {
-     "etapes": 50,
-     "ecrans_vus": 15,
-     "boutons_touches": 50,
+    "hasard_endurance": {
+     "memoire_mo": 79
+    },
+    "sombre": {
+     "etapes": 40,
+     "ecrans_vus": 2,
+     "boutons_touches": 40,
      "structure_ecrans": [
+      {
+       "noeuds": 423,
+       "cliquables": 77,
+       "web": 417,
+       "touchables": 351,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS"
+       ]
+      },
+      {
+       "noeuds": 426,
+       "cliquables": 78,
+       "web": 420,
+       "touchables": 353,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS"
+       ]
+      }
+     ]
+    },
+    "petit_ecran": {
+     "etapes": 40,
+     "ecrans_vus": 5,
+     "boutons_touches": 38,
+     "structure_ecrans": [
+      {
+       "noeuds": 421,
+       "cliquables": 76,
+       "web": 415,
+       "touchables": 349,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
+      },
+      {
+       "noeuds": 421,
+       "cliquables": 76,
+       "web": 415,
+       "touchables": 349,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
+      },
+      {
+       "noeuds": 423,
+       "cliquables": 77,
+       "web": 417,
+       "touchables": 351,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
+      },
+      {
+       "noeuds": 421,
+       "cliquables": 76,
+       "web": 415,
+       "touchables": 349,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
+      },
+      {
+       "noeuds": 420,
+       "cliquables": 76,
+       "web": 414,
+       "touchables": 349,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
+      }
+     ]
+    },
+    "normal": {
+     "etapes": 108,
+     "ecrans_vus": 30,
+     "boutons_touches": 107,
+     "structure_ecrans": [
+      {
+       "noeuds": 7,
+       "cliquables": 1,
+       "web": 1,
+       "touchables": 1,
+       "textes": []
+      },
       {
        "noeuds": 179,
        "cliquables": 36,
@@ -2400,7 +2390,7 @@
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
         "Moi et paramètres",
         "Chercher un joueur",
         "Footdex",
@@ -2420,7 +2410,67 @@
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "COLLECTION",
+        "TON CLASSEUR"
+       ]
+      },
+      {
+       "noeuds": 179,
+       "cliquables": 36,
+       "web": 173,
+       "touchables": 146,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 180,
+       "cliquables": 36,
+       "web": 174,
+       "touchables": 146,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 108,
+       "cliquables": 20,
+       "web": 102,
+       "touchables": 75,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
         "Moi et paramètres",
         "Chercher un joueur",
         "COLLECTION",
@@ -2440,7 +2490,7 @@
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
         "Moi et paramètres",
         "Chercher un joueur",
         "Footdex",
@@ -2488,66 +2538,6 @@
        ]
       },
       {
-       "noeuds": 180,
-       "cliquables": 36,
-       "web": 174,
-       "touchables": 146,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 108,
-       "cliquables": 20,
-       "web": 102,
-       "touchables": 75,
-       "textes": [
-        "Classeur · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "COLLECTION",
-        "TON CLASSEUR"
-       ]
-      },
-      {
-       "noeuds": 183,
-       "cliquables": 37,
-       "web": 177,
-       "touchables": 148,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
        "noeuds": 200,
        "cliquables": 44,
        "web": 194,
@@ -2560,7 +2550,7 @@
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son activé : appuie pour",
+        "Son coupé : appuie pour ",
         "Moi et paramètres",
         "Chercher un joueur",
         "Footdex",
@@ -2580,7 +2570,7 @@
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
         "Moi et paramètres",
         "Chercher un joueur",
         "MON COIN",
@@ -2600,20 +2590,203 @@
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
         "Moi et paramètres",
         "Chercher un joueur",
         "RAYON JOUEURS",
         "TOUS LES JOUEURS"
        ]
+      }
+     ]
+    },
+    "scenarios": {
+     "scenarios": [
+      {
+       "nom": "maison_et_reprise",
+       "resultat": "ok"
       },
       {
-       "noeuds": 257,
-       "cliquables": 67,
-       "web": 251,
-       "touchables": 237,
+       "nom": "fermee_puis_relancee",
+       "resultat": "ok"
+      },
+      {
+       "nom": "bouton_retour",
+       "resultat": "ok"
+      },
+      {
+       "nom": "rotation_rapide",
+       "resultat": "ok"
+      },
+      {
+       "nom": "memoire_faible",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mise_a_jour_sur_place",
+       "resultat": "ok"
+      },
+      {
+       "nom": "stockage_plein",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mode_avion_puis_retour_reseau",
+       "resultat": "ok"
+      }
+     ]
+    },
+    "paysage": {
+     "etapes": 50,
+     "ecrans_vus": 16,
+     "boutons_touches": 50,
+     "structure_ecrans": [
+      {
+       "noeuds": 179,
+       "cliquables": 36,
+       "web": 173,
+       "touchables": 146,
        "textes": [
-        "Histoires · Footdex",
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 107,
+       "cliquables": 20,
+       "web": 101,
+       "touchables": 75,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "COLLECTION",
+        "TON CLASSEUR"
+       ]
+      },
+      {
+       "noeuds": 200,
+       "cliquables": 44,
+       "web": 194,
+       "touchables": 160,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 180,
+       "cliquables": 36,
+       "web": 174,
+       "touchables": 146,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 108,
+       "cliquables": 20,
+       "web": 102,
+       "touchables": 75,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "COLLECTION",
+        "TON CLASSEUR"
+       ]
+      },
+      {
+       "noeuds": 180,
+       "cliquables": 36,
+       "web": 174,
+       "touchables": 146,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 108,
+       "cliquables": 20,
+       "web": 102,
+       "touchables": 75,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "COLLECTION",
+        "TON CLASSEUR"
+       ]
+      },
+      {
+       "noeuds": 180,
+       "cliquables": 36,
+       "web": 174,
+       "touchables": 146,
+       "textes": [
+        "Footdex",
         "Footdex, retour à l'accu",
         "FOOTDEX",
         "L'ALMANACH DU FOOTBALL ·",
@@ -2623,14 +2796,91 @@
         "Son coupé : appuie pour ",
         "Moi et paramètres",
         "Chercher un joueur",
-        "ÇA SE RACONTE",
-        "LES HISTOIRES"
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 108,
+       "cliquables": 20,
+       "web": 102,
+       "touchables": 75,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "COLLECTION",
+        "TON CLASSEUR"
+       ]
+      },
+      {
+       "noeuds": 200,
+       "cliquables": 44,
+       "web": 194,
+       "touchables": 160,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 64,
+       "cliquables": 17,
+       "web": 58,
+       "touchables": 42,
+       "textes": [
+        "Moi · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "MON COIN",
+        "MOI"
+       ]
+      },
+      {
+       "noeuds": 74,
+       "cliquables": 27,
+       "web": 68,
+       "touchables": 52,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS"
        ]
       }
      ]
-    },
-    "hasard_endurance": {
-     "memoire_mo": 93
     }
    }
   },
@@ -2646,7 +2896,7 @@
     },
     {
      "type": "diagnostic",
-     "detail": "android=11 abis=x86_64,x86,arm64-v8a,armeabi-v7a,armeabi ## webview versionName=83.0.4103.106 ## chrome versionName=83.0.4103.106 ## primaryCpuAbi=null ## secondaryCpuAbi=null ## versionCode=21 minSdk=23 targetSdk=35 ## versionName=1.21 ## flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ] ## android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_S ## activite=priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false <appli>/.MainActivity ## Killing 4940:<appli>:webview_service/u0a144 (adj 985): empty #18",
+     "detail": "android=11 abis=x86_64,x86,arm64-v8a,armeabi-v7a,armeabi ## webview versionName=83.0.4103.106 ## chrome versionName=83.0.4103.106 ## primaryCpuAbi=null ## secondaryCpuAbi=null ## versionCode=26 minSdk=23 targetSdk=35 ## versionName=1.26 ## flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ] ## android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_S ## activite=priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false <appli>/.MainActivity ## Killing 4756:<appli>:webview_service/u0a145 (adj 985): empty #18",
      "etape": 0,
      "mode": "normal"
     }
@@ -2657,31 +2907,6 @@
      "ecrans_vus": 1,
      "boutons_touches": 2,
      "structure_ecrans": [
-      {
-       "noeuds": 15,
-       "cliquables": 0,
-       "web": 7,
-       "touchables": 2,
-       "textes": [
-        "Footdex",
-        "FOOTDEX",
-        "OUVERTURE DE L'ALBUM…"
-       ]
-      }
-     ]
-    },
-    "normal": {
-     "etapes": 16,
-     "ecrans_vus": 2,
-     "boutons_touches": 3,
-     "structure_ecrans": [
-      {
-       "noeuds": 9,
-       "cliquables": 1,
-       "web": 1,
-       "touchables": 1,
-       "textes": []
-      },
       {
        "noeuds": 15,
        "cliquables": 0,
@@ -2724,7 +2949,10 @@
       }
      ]
     },
-    "paysage": {
+    "hasard_endurance": {
+     "memoire_mo": 91
+    },
+    "sombre": {
      "etapes": 15,
      "ecrans_vus": 1,
      "boutons_touches": 2,
@@ -2742,8 +2970,102 @@
       }
      ]
     },
-    "hasard_endurance": {
-     "memoire_mo": 82
+    "petit_ecran": {
+     "etapes": 15,
+     "ecrans_vus": 1,
+     "boutons_touches": 2,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      }
+     ]
+    },
+    "normal": {
+     "etapes": 16,
+     "ecrans_vus": 2,
+     "boutons_touches": 3,
+     "structure_ecrans": [
+      {
+       "noeuds": 9,
+       "cliquables": 1,
+       "web": 1,
+       "touchables": 1,
+       "textes": []
+      },
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      }
+     ]
+    },
+    "scenarios": {
+     "scenarios": [
+      {
+       "nom": "maison_et_reprise",
+       "resultat": "ok"
+      },
+      {
+       "nom": "fermee_puis_relancee",
+       "resultat": "ok"
+      },
+      {
+       "nom": "bouton_retour",
+       "resultat": "ok"
+      },
+      {
+       "nom": "rotation_rapide",
+       "resultat": "ok"
+      },
+      {
+       "nom": "memoire_faible",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mise_a_jour_sur_place",
+       "resultat": "ok"
+      },
+      {
+       "nom": "stockage_plein",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mode_avion_puis_retour_reseau",
+       "resultat": "ok"
+      }
+     ]
+    },
+    "paysage": {
+     "etapes": 15,
+     "ecrans_vus": 1,
+     "boutons_touches": 2,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      }
+     ]
     }
    }
   },
@@ -2759,7 +3081,7 @@
     },
     {
      "type": "diagnostic",
-     "detail": "android=12 abis=x86_64,arm64-v8a ## webview versionName=91.0.4472.114 ## chrome versionName=91.0.4472.114 ## primaryCpuAbi=null ## secondaryCpuAbi=null ## versionCode=21 minSdk=23 targetSdk=35 ## versionName=1.21 ## flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ] ## android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_S ## activite=priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false <appli>/.MainActivity ## Start proc 6454:<appli>:webview_service/u0a108 for service {<appli>/org.<appli>",
+     "detail": "android=12 abis=x86_64,arm64-v8a ## webview versionName=91.0.4472.114 ## chrome versionName=91.0.4472.114 ## primaryCpuAbi=null ## secondaryCpuAbi=null ## versionCode=26 minSdk=23 targetSdk=35 ## versionName=1.26 ## flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ] ## android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_S ## activite=priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false <appli>/.MainActivity ## Start proc 6360:<appli>:webview_service/u0a109 for service {<appli>/org.<appli>",
      "etape": 0,
      "mode": "normal"
     }
@@ -2783,68 +3105,6 @@
        "noeuds": 11,
        "cliquables": 0,
        "web": 3,
-       "touchables": 0,
-       "textes": [
-        "Footdex"
-       ]
-      }
-     ]
-    },
-    "normal": {
-     "etapes": 19,
-     "ecrans_vus": 6,
-     "boutons_touches": 3,
-     "structure_ecrans": [
-      {
-       "noeuds": 9,
-       "cliquables": 1,
-       "web": 1,
-       "touchables": 1,
-       "textes": []
-      },
-      {
-       "noeuds": 14,
-       "cliquables": 0,
-       "web": 6,
-       "touchables": 2,
-       "textes": [
-        "Footdex",
-        "FOOTDEX",
-        "OUVERTURE DE L'ALBUM…"
-       ]
-      },
-      {
-       "noeuds": 13,
-       "cliquables": 0,
-       "web": 5,
-       "touchables": 1,
-       "textes": [
-        "Footdex",
-        "OUVERTURE DE L'ALBUM…"
-       ]
-      },
-      {
-       "noeuds": 12,
-       "cliquables": 0,
-       "web": 4,
-       "touchables": 0,
-       "textes": [
-        "Footdex"
-       ]
-      },
-      {
-       "noeuds": 11,
-       "cliquables": 0,
-       "web": 3,
-       "touchables": 0,
-       "textes": [
-        "Footdex"
-       ]
-      },
-      {
-       "noeuds": 10,
-       "cliquables": 0,
-       "web": 2,
        "touchables": 0,
        "textes": [
         "Footdex"
@@ -2916,6 +3176,157 @@
       }
      ]
     },
+    "hasard_endurance": {
+     "memoire_mo": 78
+    },
+    "sombre": {
+     "etapes": 15,
+     "ecrans_vus": 2,
+     "boutons_touches": 0,
+     "structure_ecrans": [
+      {
+       "noeuds": 11,
+       "cliquables": 0,
+       "web": 3,
+       "touchables": 0,
+       "textes": [
+        "Footdex"
+       ]
+      },
+      {
+       "noeuds": 10,
+       "cliquables": 0,
+       "web": 2,
+       "touchables": 0,
+       "textes": [
+        "Footdex"
+       ]
+      }
+     ]
+    },
+    "petit_ecran": {
+     "etapes": 15,
+     "ecrans_vus": 2,
+     "boutons_touches": 0,
+     "structure_ecrans": [
+      {
+       "noeuds": 11,
+       "cliquables": 0,
+       "web": 3,
+       "touchables": 0,
+       "textes": [
+        "Footdex"
+       ]
+      },
+      {
+       "noeuds": 10,
+       "cliquables": 0,
+       "web": 2,
+       "touchables": 0,
+       "textes": [
+        "Footdex"
+       ]
+      }
+     ]
+    },
+    "normal": {
+     "etapes": 19,
+     "ecrans_vus": 6,
+     "boutons_touches": 3,
+     "structure_ecrans": [
+      {
+       "noeuds": 9,
+       "cliquables": 1,
+       "web": 1,
+       "touchables": 1,
+       "textes": []
+      },
+      {
+       "noeuds": 14,
+       "cliquables": 0,
+       "web": 6,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      },
+      {
+       "noeuds": 13,
+       "cliquables": 0,
+       "web": 5,
+       "touchables": 1,
+       "textes": [
+        "Footdex",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      },
+      {
+       "noeuds": 12,
+       "cliquables": 0,
+       "web": 4,
+       "touchables": 0,
+       "textes": [
+        "Footdex"
+       ]
+      },
+      {
+       "noeuds": 11,
+       "cliquables": 0,
+       "web": 3,
+       "touchables": 0,
+       "textes": [
+        "Footdex"
+       ]
+      },
+      {
+       "noeuds": 10,
+       "cliquables": 0,
+       "web": 2,
+       "touchables": 0,
+       "textes": [
+        "Footdex"
+       ]
+      }
+     ]
+    },
+    "scenarios": {
+     "scenarios": [
+      {
+       "nom": "maison_et_reprise",
+       "resultat": "ok"
+      },
+      {
+       "nom": "fermee_puis_relancee",
+       "resultat": "ok"
+      },
+      {
+       "nom": "bouton_retour",
+       "resultat": "ok"
+      },
+      {
+       "nom": "rotation_rapide",
+       "resultat": "ok"
+      },
+      {
+       "nom": "memoire_faible",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mise_a_jour_sur_place",
+       "resultat": "ok"
+      },
+      {
+       "nom": "stockage_plein",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mode_avion_puis_retour_reseau",
+       "resultat": "ok"
+      }
+     ]
+    },
     "paysage": {
      "etapes": 18,
      "ecrans_vus": 5,
@@ -2970,9 +3381,6 @@
        ]
       }
      ]
-    },
-    "hasard_endurance": {
-     "memoire_mo": 88
     }
    }
   },
@@ -2983,323 +3391,9 @@
    "details": {
     "horsconnexion": {
      "etapes": 50,
-     "ecrans_vus": 22,
+     "ecrans_vus": 10,
      "boutons_touches": 50,
      "structure_ecrans": [
-      {
-       "noeuds": 76,
-       "cliquables": 29,
-       "web": 68,
-       "touchables": 54,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 76,
-       "cliquables": 29,
-       "web": 68,
-       "touchables": 54,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 76,
-       "cliquables": 29,
-       "web": 68,
-       "touchables": 54,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 79,
-       "cliquables": 30,
-       "web": 71,
-       "touchables": 56,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 76,
-       "cliquables": 29,
-       "web": 68,
-       "touchables": 54,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 76,
-       "cliquables": 29,
-       "web": 68,
-       "touchables": 54,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 76,
-       "cliquables": 29,
-       "web": 68,
-       "touchables": 54,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 76,
-       "cliquables": 29,
-       "web": 68,
-       "touchables": 54,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 76,
-       "cliquables": 29,
-       "web": 68,
-       "touchables": 54,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 76,
-       "cliquables": 29,
-       "web": 68,
-       "touchables": 54,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 79,
-       "cliquables": 30,
-       "web": 71,
-       "touchables": 56,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      },
-      {
-       "noeuds": 76,
-       "cliquables": 29,
-       "web": 68,
-       "touchables": 54,
-       "textes": [
-        "Joueurs · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "RAYON JOUEURS",
-        "TOUS LES JOUEURS"
-       ]
-      }
-     ]
-    },
-    "normal": {
-     "etapes": 120,
-     "ecrans_vus": 26,
-     "boutons_touches": 116,
-     "structure_ecrans": [
-      {
-       "noeuds": 9,
-       "cliquables": 1,
-       "web": 1,
-       "touchables": 1,
-       "textes": []
-      },
-      {
-       "noeuds": 144,
-       "cliquables": 18,
-       "web": 136,
-       "touchables": 98,
-       "textes": [
-        "Diego Maradona · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Tous les joueurs",
-        "Carte Légende : Diego Ma"
-       ]
-      },
-      {
-       "noeuds": 172,
-       "cliquables": 37,
-       "web": 164,
-       "touchables": 139,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 109,
-       "cliquables": 21,
-       "web": 101,
-       "touchables": 76,
-       "textes": [
-        "Classeur · Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "COLLECTION",
-        "TON CLASSEUR"
-       ]
-      },
       {
        "noeuds": 173,
        "cliquables": 38,
@@ -3321,12 +3415,12 @@
        ]
       },
       {
-       "noeuds": 145,
-       "cliquables": 19,
-       "web": 137,
-       "touchables": 99,
+       "noeuds": 173,
+       "cliquables": 20,
+       "web": 165,
+       "touchables": 124,
        "textes": [
-        "Diego Maradona · Footdex",
+        "Kylian Mbappé · Footdex",
         "Footdex, retour à l'accu",
         "FOOTDEX",
         "L'ALMANACH DU FOOTBALL ·",
@@ -3337,13 +3431,13 @@
         "Moi et paramètres",
         "Chercher un joueur",
         "Tous les joueurs",
-        "Carte Légende : Diego Ma"
+        "Carte Éclat : Kylian Mba"
        ]
       },
       {
-       "noeuds": 110,
+       "noeuds": 111,
        "cliquables": 22,
-       "web": 102,
+       "web": 103,
        "touchables": 77,
        "textes": [
         "Classeur · Footdex",
@@ -3361,10 +3455,10 @@
        ]
       },
       {
-       "noeuds": 191,
-       "cliquables": 46,
-       "web": 183,
-       "touchables": 153,
+       "noeuds": 174,
+       "cliquables": 38,
+       "web": 166,
+       "touchables": 140,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -3381,10 +3475,70 @@
        ]
       },
       {
-       "noeuds": 191,
-       "cliquables": 46,
-       "web": 183,
-       "touchables": 154,
+       "noeuds": 66,
+       "cliquables": 19,
+       "web": 58,
+       "touchables": 44,
+       "textes": [
+        "Moi · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "MON COIN",
+        "MOI"
+       ]
+      },
+      {
+       "noeuds": 76,
+       "cliquables": 29,
+       "web": 68,
+       "touchables": 54,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS"
+       ]
+      },
+      {
+       "noeuds": 133,
+       "cliquables": 17,
+       "web": 125,
+       "touchables": 97,
+       "textes": [
+        "Paquets · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "CHEMIN ",
+        "1"
+       ]
+      },
+      {
+       "noeuds": 182,
+       "cliquables": 41,
+       "web": 174,
+       "touchables": 146,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -3401,10 +3555,10 @@
        ]
       },
       {
-       "noeuds": 191,
-       "cliquables": 46,
-       "web": 183,
-       "touchables": 154,
+       "noeuds": 179,
+       "cliquables": 40,
+       "web": 171,
+       "touchables": 144,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -3421,30 +3575,10 @@
        ]
       },
       {
-       "noeuds": 191,
-       "cliquables": 46,
-       "web": 183,
-       "touchables": 154,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 194,
-       "cliquables": 47,
-       "web": 186,
-       "touchables": 156,
+       "noeuds": 182,
+       "cliquables": 41,
+       "web": 174,
+       "touchables": 146,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -3464,14 +3598,14 @@
     },
     "police200": {
      "etapes": 50,
-     "ecrans_vus": 2,
+     "ecrans_vus": 3,
      "boutons_touches": 50,
      "structure_ecrans": [
       {
-       "noeuds": 175,
-       "cliquables": 38,
-       "web": 167,
-       "touchables": 140,
+       "noeuds": 187,
+       "cliquables": 40,
+       "web": 179,
+       "touchables": 148,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -3506,17 +3640,294 @@
         "Footdex",
         "POUR RAPHAËL"
        ]
+      },
+      {
+       "noeuds": 183,
+       "cliquables": 40,
+       "web": 175,
+       "touchables": 145,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
       }
      ]
     },
-    "paysage": {
-     "etapes": 50,
-     "ecrans_vus": 19,
-     "boutons_touches": 50,
+    "hasard_endurance": {
+     "memoire_mo": 88
+    },
+    "sombre": {
+     "etapes": 40,
+     "ecrans_vus": 4,
+     "boutons_touches": 40,
      "structure_ecrans": [
       {
-       "noeuds": 173,
+       "noeuds": 179,
+       "cliquables": 40,
+       "web": 171,
+       "touchables": 144,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 182,
+       "cliquables": 41,
+       "web": 174,
+       "touchables": 146,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 182,
+       "cliquables": 41,
+       "web": 174,
+       "touchables": 146,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 180,
+       "cliquables": 40,
+       "web": 172,
+       "touchables": 144,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      }
+     ]
+    },
+    "petit_ecran": {
+     "etapes": 40,
+     "ecrans_vus": 5,
+     "boutons_touches": 40,
+     "structure_ecrans": [
+      {
+       "noeuds": 177,
+       "cliquables": 39,
+       "web": 169,
+       "touchables": 142,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 80,
+       "cliquables": 30,
+       "web": 72,
+       "touchables": 56,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
+      },
+      {
+       "noeuds": 180,
+       "cliquables": 22,
+       "web": 172,
+       "touchables": 128,
+       "textes": [
+        "Kylian Mbappé · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Tous les joueurs",
+        "Carte Éclat : Kylian Mba",
+        "Portrait de Kylian Mbapp",
+        "Note du jeu vidéo EA Spo"
+       ]
+      },
+      {
+       "noeuds": 177,
+       "cliquables": 21,
+       "web": 169,
+       "touchables": 126,
+       "textes": [
+        "Kylian Mbappé · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Tous les joueurs",
+        "Carte Éclat : Kylian Mba",
+        "Portrait de Kylian Mbapp",
+        "Note du jeu vidéo EA Spo"
+       ]
+      },
+      {
+       "noeuds": 83,
+       "cliquables": 31,
+       "web": 75,
+       "touchables": 58,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
+      }
+     ]
+    },
+    "normal": {
+     "etapes": 120,
+     "ecrans_vus": 28,
+     "boutons_touches": 116,
+     "structure_ecrans": [
+      {
+       "noeuds": 172,
        "cliquables": 37,
+       "web": 164,
+       "touchables": 139,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 172,
+       "cliquables": 19,
+       "web": 164,
+       "touchables": 123,
+       "textes": [
+        "Kylian Mbappé · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Tous les joueurs",
+        "Carte Éclat : Kylian Mba"
+       ]
+      },
+      {
+       "noeuds": 109,
+       "cliquables": 21,
+       "web": 101,
+       "touchables": 76,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "COLLECTION",
+        "TON CLASSEUR"
+       ]
+      },
+      {
+       "noeuds": 173,
+       "cliquables": 38,
        "web": 165,
        "touchables": 140,
        "textes": [
@@ -3535,12 +3946,12 @@
        ]
       },
       {
-       "noeuds": 144,
-       "cliquables": 18,
-       "web": 136,
-       "touchables": 98,
+       "noeuds": 173,
+       "cliquables": 20,
+       "web": 165,
+       "touchables": 124,
        "textes": [
-        "Diego Maradona · Footdex",
+        "Kylian Mbappé · Footdex",
         "Footdex, retour à l'accu",
         "FOOTDEX",
         "L'ALMANACH DU FOOTBALL ·",
@@ -3551,7 +3962,230 @@
         "Moi et paramètres",
         "Chercher un joueur",
         "Tous les joueurs",
-        "Carte Légende : Diego Ma"
+        "Carte Éclat : Kylian Mba"
+       ]
+      },
+      {
+       "noeuds": 110,
+       "cliquables": 22,
+       "web": 102,
+       "touchables": 77,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "COLLECTION",
+        "TON CLASSEUR"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 153,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 173,
+       "cliquables": 38,
+       "web": 165,
+       "touchables": 140,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 174,
+       "cliquables": 20,
+       "web": 166,
+       "touchables": 125,
+       "textes": [
+        "Kylian Mbappé · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Son activé. Tu n'entends",
+        "Tous les joueurs"
+       ]
+      },
+      {
+       "noeuds": 66,
+       "cliquables": 19,
+       "web": 58,
+       "touchables": 44,
+       "textes": [
+        "Moi · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "MON COIN",
+        "MOI"
+       ]
+      }
+     ]
+    },
+    "scenarios": {
+     "scenarios": [
+      {
+       "nom": "maison_et_reprise",
+       "resultat": "ok"
+      },
+      {
+       "nom": "fermee_puis_relancee",
+       "resultat": "ok"
+      },
+      {
+       "nom": "bouton_retour",
+       "resultat": "ok"
+      },
+      {
+       "nom": "rotation_rapide",
+       "resultat": "ok"
+      },
+      {
+       "nom": "memoire_faible",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mise_a_jour_sur_place",
+       "resultat": "ok"
+      },
+      {
+       "nom": "stockage_plein",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mode_avion_puis_retour_reseau",
+       "resultat": "ok"
+      }
+     ]
+    },
+    "paysage": {
+     "etapes": 50,
+     "ecrans_vus": 18,
+     "boutons_touches": 50,
+     "structure_ecrans": [
+      {
+       "noeuds": 181,
+       "cliquables": 37,
+       "web": 173,
+       "touchables": 148,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 172,
+       "cliquables": 19,
+       "web": 164,
+       "touchables": 123,
+       "textes": [
+        "Kylian Mbappé · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Tous les joueurs",
+        "Carte Éclat : Kylian Mba"
        ]
       },
       {
@@ -3595,26 +4229,6 @@
        ]
       },
       {
-       "noeuds": 191,
-       "cliquables": 46,
-       "web": 183,
-       "touchables": 153,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
        "noeuds": 173,
        "cliquables": 38,
        "web": 165,
@@ -3635,12 +4249,12 @@
        ]
       },
       {
-       "noeuds": 145,
-       "cliquables": 19,
-       "web": 137,
-       "touchables": 99,
+       "noeuds": 173,
+       "cliquables": 20,
+       "web": 165,
+       "touchables": 124,
        "textes": [
-        "Diego Maradona · Footdex",
+        "Kylian Mbappé · Footdex",
         "Footdex, retour à l'accu",
         "FOOTDEX",
         "L'ALMANACH DU FOOTBALL ·",
@@ -3651,7 +4265,7 @@
         "Moi et paramètres",
         "Chercher un joueur",
         "Tous les joueurs",
-        "Carte Légende : Diego Ma"
+        "Carte Éclat : Kylian Mba"
        ]
       },
       {
@@ -3678,6 +4292,26 @@
        "noeuds": 191,
        "cliquables": 46,
        "web": 183,
+       "touchables": 153,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
        "touchables": 154,
        "textes": [
         "Footdex",
@@ -3715,32 +4349,12 @@
        ]
       },
       {
-       "noeuds": 173,
-       "cliquables": 38,
-       "web": 165,
-       "touchables": 140,
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
        "textes": [
         "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "L'ALMANACH DU FOOTBALL ·",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Chercher un joueur",
-        "Footdex",
-        "POUR RAPHAËL"
-       ]
-      },
-      {
-       "noeuds": 146,
-       "cliquables": 19,
-       "web": 138,
-       "touchables": 100,
-       "textes": [
-        "Diego Maradona · Footdex",
         "Footdex, retour à l'accu",
         "FOOTDEX",
         "L'ALMANACH DU FOOTBALL ·",
@@ -3750,14 +4364,31 @@
         "Son activé : appuie pour",
         "Moi et paramètres",
         "Chercher un joueur",
-        "Son activé. Tu n'entends",
-        "Tous les joueurs"
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
        ]
       }
      ]
-    },
-    "hasard_endurance": {
-     "memoire_mo": 98
     }
    }
   },
@@ -3768,7 +4399,7 @@
    "details": {
     "horsconnexion": {
      "etapes": 50,
-     "ecrans_vus": 16,
+     "ecrans_vus": 17,
      "boutons_touches": 50,
      "structure_ecrans": [
       {
@@ -3812,6 +4443,26 @@
        ]
       },
       {
+       "noeuds": 179,
+       "cliquables": 36,
+       "web": 173,
+       "touchables": 141,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
        "noeuds": 196,
        "cliquables": 43,
        "web": 190,
@@ -3892,10 +4543,10 @@
        ]
       },
       {
-       "noeuds": 61,
+       "noeuds": 62,
        "cliquables": 16,
-       "web": 55,
-       "touchables": 39,
+       "web": 56,
+       "touchables": 40,
        "textes": [
         "Moi · Footdex",
         "Footdex, retour à l'accu",
@@ -3912,10 +4563,10 @@
        ]
       },
       {
-       "noeuds": 177,
-       "cliquables": 35,
-       "web": 171,
-       "touchables": 139,
+       "noeuds": 179,
+       "cliquables": 36,
+       "web": 173,
+       "touchables": 141,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -3952,6 +4603,26 @@
        ]
       },
       {
+       "noeuds": 177,
+       "cliquables": 35,
+       "web": 171,
+       "touchables": 139,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
        "noeuds": 411,
        "cliquables": 93,
        "web": 405,
@@ -3970,11 +4641,58 @@
         "Quatre grands matchs ont",
         "play"
        ]
+      }
+     ]
+    },
+    "police200": {
+     "etapes": 50,
+     "ecrans_vus": 16,
+     "boutons_touches": 50,
+     "structure_ecrans": [
+      {
+       "noeuds": 193,
+       "cliquables": 37,
+       "web": 187,
+       "touchables": 148,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
       },
       {
-       "noeuds": 176,
+       "noeuds": 192,
+       "cliquables": 37,
+       "web": 186,
+       "touchables": 147,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 177,
        "cliquables": 35,
-       "web": 170,
+       "web": 171,
        "touchables": 139,
        "textes": [
         "Footdex",
@@ -3992,10 +4710,260 @@
        ]
       },
       {
-       "noeuds": 415,
-       "cliquables": 74,
-       "web": 409,
-       "touchables": 345,
+       "noeuds": 106,
+       "cliquables": 19,
+       "web": 100,
+       "touchables": 73,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "COLLECTION",
+        "TON CLASSEUR",
+        "Tes cartes, l'album à co",
+        "CARTES DIFFÉRENTES"
+       ]
+      },
+      {
+       "noeuds": 177,
+       "cliquables": 35,
+       "web": 171,
+       "touchables": 139,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 197,
+       "cliquables": 43,
+       "web": 191,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 197,
+       "cliquables": 43,
+       "web": 191,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 197,
+       "cliquables": 43,
+       "web": 191,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 197,
+       "cliquables": 43,
+       "web": 191,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 197,
+       "cliquables": 43,
+       "web": 191,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 200,
+       "cliquables": 44,
+       "web": 194,
+       "touchables": 156,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 197,
+       "cliquables": 43,
+       "web": 191,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "hasard_endurance": {
+     "memoire_mo": 79
+    },
+    "sombre": {
+     "etapes": 40,
+     "ecrans_vus": 4,
+     "boutons_touches": 40,
+     "structure_ecrans": [
+      {
+       "noeuds": 420,
+       "cliquables": 76,
+       "web": 414,
+       "touchables": 349,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
+      },
+      {
+       "noeuds": 421,
+       "cliquables": 76,
+       "web": 415,
+       "touchables": 349,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
+      },
+      {
+       "noeuds": 423,
+       "cliquables": 77,
+       "web": 417,
+       "touchables": 351,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
+      },
+      {
+       "noeuds": 424,
+       "cliquables": 77,
+       "web": 418,
+       "touchables": 351,
        "textes": [
         "Joueurs · Footdex",
         "Footdex, retour à l'accu",
@@ -4013,18 +4981,118 @@
       }
      ]
     },
-    "normal": {
-     "etapes": 120,
-     "ecrans_vus": 44,
-     "boutons_touches": 120,
+    "petit_ecran": {
+     "etapes": 40,
+     "ecrans_vus": 5,
+     "boutons_touches": 40,
      "structure_ecrans": [
       {
-       "noeuds": 7,
-       "cliquables": 1,
-       "web": 1,
-       "touchables": 1,
-       "textes": []
+       "noeuds": 421,
+       "cliquables": 76,
+       "web": 415,
+       "touchables": 349,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS",
+        "Les ",
+        "1 050"
+       ]
       },
+      {
+       "noeuds": 389,
+       "cliquables": 83,
+       "web": 383,
+       "touchables": 285,
+       "textes": [
+        "Vidéos · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "RAYON VIDÉOS",
+        "LES IMAGES, SANS FAUX LI",
+        "Quatre grands matchs ont",
+        "Unable to play media."
+       ]
+      },
+      {
+       "noeuds": 183,
+       "cliquables": 37,
+       "web": 177,
+       "touchables": 143,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 68,
+       "cliquables": 18,
+       "web": 62,
+       "touchables": 44,
+       "textes": [
+        "Moi · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "MON COIN",
+        "MOI",
+        "MON PERSONNAGE LE PAPI S",
+        "MON PERSONNAGE"
+       ]
+      },
+      {
+       "noeuds": 186,
+       "cliquables": 38,
+       "web": 180,
+       "touchables": 145,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "normal": {
+     "etapes": 120,
+     "ecrans_vus": 43,
+     "boutons_touches": 120,
+     "structure_ecrans": [
       {
        "noeuds": 175,
        "cliquables": 35,
@@ -4146,156 +5214,9 @@
        ]
       },
       {
-       "noeuds": 179,
-       "cliquables": 36,
-       "web": 173,
-       "touchables": 141,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 179,
-       "cliquables": 36,
-       "web": 173,
-       "touchables": 141,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 179,
-       "cliquables": 36,
-       "web": 173,
-       "touchables": 141,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 179,
-       "cliquables": 36,
-       "web": 173,
-       "touchables": 141,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 179,
-       "cliquables": 36,
-       "web": 173,
-       "touchables": 141,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      }
-     ]
-    },
-    "police200": {
-     "etapes": 50,
-     "ecrans_vus": 16,
-     "boutons_touches": 50,
-     "structure_ecrans": [
-      {
-       "noeuds": 202,
-       "cliquables": 37,
-       "web": 196,
-       "touchables": 154,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 201,
-       "cliquables": 37,
-       "web": 195,
-       "touchables": 153,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 177,
+       "noeuds": 176,
        "cliquables": 35,
-       "web": 171,
+       "web": 170,
        "touchables": 139,
        "textes": [
         "Footdex",
@@ -4333,29 +5254,9 @@
        ]
       },
       {
-       "noeuds": 197,
+       "noeuds": 196,
        "cliquables": 43,
-       "web": 191,
-       "touchables": 153,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 197,
-       "cliquables": 43,
-       "web": 191,
+       "web": 190,
        "touchables": 154,
        "textes": [
         "Footdex",
@@ -4373,124 +5274,100 @@
        ]
       },
       {
-       "noeuds": 197,
-       "cliquables": 43,
-       "web": 191,
-       "touchables": 154,
+       "noeuds": 62,
+       "cliquables": 16,
+       "web": 56,
+       "touchables": 40,
        "textes": [
-        "Footdex",
+        "Moi · Footdex",
         "Footdex, retour à l'accu",
         "FOOTDEX",
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
         "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
+        "MON COIN",
+        "MOI",
+        "MON PERSONNAGE LE PAPI S",
+        "MON PERSONNAGE"
        ]
       },
       {
-       "noeuds": 197,
-       "cliquables": 43,
-       "web": 191,
-       "touchables": 154,
+       "noeuds": 255,
+       "cliquables": 66,
+       "web": 249,
+       "touchables": 235,
        "textes": [
-        "Footdex",
+        "Histoires · Footdex",
         "Footdex, retour à l'accu",
         "FOOTDEX",
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
         "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
+        "ÇA SE RACONTE",
+        "LES HISTOIRES",
+        "Les anecdotes de l'album",
+        "Histoires"
        ]
       },
       {
-       "noeuds": 197,
-       "cliquables": 43,
-       "web": 191,
-       "touchables": 154,
+       "noeuds": 411,
+       "cliquables": 93,
+       "web": 405,
+       "touchables": 285,
        "textes": [
-        "Footdex",
+        "Vidéos · Footdex",
         "Footdex, retour à l'accu",
         "FOOTDEX",
         "POUR RAPHAËL",
         "0 pièces, ouvrir la bout",
         "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
+        "Son activé : appuie pour",
         "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
+        "RAYON VIDÉOS",
+        "LES IMAGES, SANS FAUX LI",
+        "Quatre grands matchs ont",
+        "play"
        ]
+      }
+     ]
+    },
+    "scenarios": {
+     "scenarios": [
+      {
+       "nom": "maison_et_reprise",
+       "resultat": "ok"
       },
       {
-       "noeuds": 197,
-       "cliquables": 43,
-       "web": 191,
-       "touchables": 154,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
+       "nom": "fermee_puis_relancee",
+       "resultat": "ok"
       },
       {
-       "noeuds": 197,
-       "cliquables": 43,
-       "web": 191,
-       "touchables": 154,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
+       "nom": "bouton_retour",
+       "resultat": "ok"
       },
       {
-       "noeuds": 197,
-       "cliquables": 43,
-       "web": 191,
-       "touchables": 154,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
+       "nom": "rotation_rapide",
+       "resultat": "ok"
+      },
+      {
+       "nom": "memoire_faible",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mise_a_jour_sur_place",
+       "resultat": "ok"
+      },
+      {
+       "nom": "stockage_plein",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mode_avion_puis_retour_reseau",
+       "resultat": "ok"
       }
      ]
     },
@@ -4500,10 +5377,10 @@
      "boutons_touches": 50,
      "structure_ecrans": [
       {
-       "noeuds": 199,
+       "noeuds": 190,
        "cliquables": 37,
-       "web": 193,
-       "touchables": 153,
+       "web": 184,
+       "touchables": 147,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -4540,30 +5417,10 @@
        ]
       },
       {
-       "noeuds": 196,
+       "noeuds": 199,
        "cliquables": 36,
-       "web": 190,
-       "touchables": 151,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son coupé : appuie pour ",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 196,
-       "cliquables": 36,
-       "web": 190,
-       "touchables": 151,
+       "web": 193,
+       "touchables": 153,
        "textes": [
         "Footdex",
         "Footdex, retour à l'accu",
@@ -4660,30 +5517,10 @@
        ]
       },
       {
-       "noeuds": 179,
-       "cliquables": 36,
-       "web": 173,
-       "touchables": 141,
-       "textes": [
-        "Footdex",
-        "Footdex, retour à l'accu",
-        "FOOTDEX",
-        "POUR RAPHAËL",
-        "0 pièces, ouvrir la bout",
-        "Signaler une erreur ou p",
-        "Son activé : appuie pour",
-        "Moi et paramètres",
-        "Footdex",
-        "POUR RAPHAËL",
-        "AIMER LE FOOTBALL, C'EST",
-        "La plus grande base de d"
-       ]
-      },
-      {
-       "noeuds": 106,
-       "cliquables": 19,
-       "web": 100,
-       "touchables": 73,
+       "noeuds": 109,
+       "cliquables": 20,
+       "web": 103,
+       "touchables": 75,
        "textes": [
         "Classeur · Footdex",
         "Footdex, retour à l'accu",
@@ -4720,10 +5557,10 @@
        ]
       },
       {
-       "noeuds": 64,
-       "cliquables": 17,
-       "web": 58,
-       "touchables": 41,
+       "noeuds": 62,
+       "cliquables": 16,
+       "web": 56,
+       "touchables": 40,
        "textes": [
         "Moi · Footdex",
         "Footdex, retour à l'accu",
@@ -4738,13 +5575,1097 @@
         "MON PERSONNAGE LE PAPI S",
         "MON PERSONNAGE"
        ]
+      },
+      {
+       "noeuds": 255,
+       "cliquables": 66,
+       "web": 249,
+       "touchables": 235,
+       "textes": [
+        "Histoires · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "ÇA SE RACONTE",
+        "LES HISTOIRES",
+        "Les anecdotes de l'album",
+        "Histoires"
+       ]
+      },
+      {
+       "noeuds": 411,
+       "cliquables": 93,
+       "web": 405,
+       "touchables": 285,
+       "textes": [
+        "Vidéos · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "RAYON VIDÉOS",
+        "LES IMAGES, SANS FAUX LI",
+        "Quatre grands matchs ont",
+        "Unable to play media."
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "appareil": "android10-telephone",
+   "statut": "defaut",
+   "defauts": [
+    {
+     "type": "ecran_bloque",
+     "detail": "L'écran d'ouverture ne change pas après 90 secondes.",
+     "etape": 0,
+     "mode": "normal"
+    },
+    {
+     "type": "diagnostic",
+     "detail": "android=10 abis=x86_64,x86 ## webview versionName=74.0.3729.185 ## chrome versionName=74.0.3729.185 ## primaryCpuAbi=null ## secondaryCpuAbi=null ## versionCode=26 minSdk=23 targetSdk=35 ## versionName=1.26 ## flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ] ## android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_S ## activite=priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false <appli>/.MainActivity ## [INFO:library_loader_hooks.cc(50)] Chromium logging enabled: level = 0, default verbosity = 0 ## Start proc 6596:<appli>:webview_service/u0a130 for service {<appli>/org.<appli>",
+     "etape": 0,
+     "mode": "normal"
+    }
+   ],
+   "details": {
+    "horsconnexion": {
+     "etapes": 15,
+     "ecrans_vus": 1,
+     "boutons_touches": 2,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      }
+     ]
+    },
+    "police200": {
+     "etapes": 19,
+     "ecrans_vus": 2,
+     "boutons_touches": 4,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      },
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
       }
      ]
     },
     "hasard_endurance": {
-     "memoire_mo": 97
+     "memoire_mo": 77
+    },
+    "sombre": {
+     "etapes": 15,
+     "ecrans_vus": 1,
+     "boutons_touches": 2,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      }
+     ]
+    },
+    "petit_ecran": {
+     "etapes": 15,
+     "ecrans_vus": 1,
+     "boutons_touches": 2,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      }
+     ]
+    },
+    "normal": {
+     "etapes": 16,
+     "ecrans_vus": 2,
+     "boutons_touches": 3,
+     "structure_ecrans": [
+      {
+       "noeuds": 9,
+       "cliquables": 1,
+       "web": 1,
+       "touchables": 1,
+       "textes": []
+      },
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      }
+     ]
+    },
+    "scenarios": {
+     "scenarios": [
+      {
+       "nom": "maison_et_reprise",
+       "resultat": "ok"
+      },
+      {
+       "nom": "fermee_puis_relancee",
+       "resultat": "ok"
+      },
+      {
+       "nom": "bouton_retour",
+       "resultat": "ok"
+      },
+      {
+       "nom": "rotation_rapide",
+       "resultat": "ok"
+      },
+      {
+       "nom": "memoire_faible",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mise_a_jour_sur_place",
+       "resultat": "ok"
+      },
+      {
+       "nom": "stockage_plein",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mode_avion_puis_retour_reseau",
+       "resultat": "ok"
+      }
+     ]
+    },
+    "paysage": {
+     "etapes": 15,
+     "ecrans_vus": 1,
+     "boutons_touches": 2,
+     "structure_ecrans": [
+      {
+       "noeuds": 15,
+       "cliquables": 0,
+       "web": 7,
+       "touchables": 2,
+       "textes": [
+        "Footdex",
+        "FOOTDEX",
+        "OUVERTURE DE L'ALBUM…"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "appareil": "android13-tablette",
+   "statut": "ok",
+   "defauts": [],
+   "details": {
+    "horsconnexion": {
+     "etapes": 50,
+     "ecrans_vus": 4,
+     "boutons_touches": 50,
+     "structure_ecrans": [
+      {
+       "noeuds": 201,
+       "cliquables": 50,
+       "web": 193,
+       "touchables": 162,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 201,
+       "cliquables": 50,
+       "web": 193,
+       "touchables": 162,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 204,
+       "cliquables": 51,
+       "web": 196,
+       "touchables": 164,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 202,
+       "cliquables": 50,
+       "web": 194,
+       "touchables": 162,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      }
+     ]
+    },
+    "police200": {
+     "etapes": 50,
+     "ecrans_vus": 5,
+     "boutons_touches": 50,
+     "structure_ecrans": [
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 187,
+       "cliquables": 40,
+       "web": 179,
+       "touchables": 148,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 180,
+       "cliquables": 39,
+       "web": 172,
+       "touchables": 143,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 183,
+       "cliquables": 40,
+       "web": 175,
+       "touchables": 145,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 197,
+       "cliquables": 39,
+       "web": 189,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      }
+     ]
+    },
+    "hasard_endurance": {
+     "memoire_mo": 91
+    },
+    "sombre": {
+     "etapes": 40,
+     "ecrans_vus": 4,
+     "boutons_touches": 40,
+     "structure_ecrans": [
+      {
+       "noeuds": 201,
+       "cliquables": 50,
+       "web": 193,
+       "touchables": 162,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 204,
+       "cliquables": 51,
+       "web": 196,
+       "touchables": 164,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 201,
+       "cliquables": 50,
+       "web": 193,
+       "touchables": 162,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 202,
+       "cliquables": 50,
+       "web": 194,
+       "touchables": 162,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      }
+     ]
+    },
+    "petit_ecran": {
+     "etapes": 40,
+     "ecrans_vus": 2,
+     "boutons_touches": 40,
+     "structure_ecrans": [
+      {
+       "noeuds": 199,
+       "cliquables": 49,
+       "web": 191,
+       "touchables": 160,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      },
+      {
+       "noeuds": 202,
+       "cliquables": 50,
+       "web": 194,
+       "touchables": 162,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Footdex",
+        "POUR RAPHAËL",
+        "AIMER LE FOOTBALL, C'EST",
+        "La plus grande base de d"
+       ]
+      }
+     ]
+    },
+    "normal": {
+     "etapes": 66,
+     "ecrans_vus": 32,
+     "boutons_touches": 64,
+     "structure_ecrans": [
+      {
+       "noeuds": 9,
+       "cliquables": 1,
+       "web": 1,
+       "touchables": 1,
+       "textes": []
+      },
+      {
+       "noeuds": 172,
+       "cliquables": 37,
+       "web": 164,
+       "touchables": 139,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 75,
+       "cliquables": 28,
+       "web": 67,
+       "touchables": 53,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS"
+       ]
+      },
+      {
+       "noeuds": 132,
+       "cliquables": 16,
+       "web": 124,
+       "touchables": 96,
+       "textes": [
+        "Paquets · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "CHEMIN ",
+        "1"
+       ]
+      },
+      {
+       "noeuds": 135,
+       "cliquables": 17,
+       "web": 127,
+       "touchables": 98,
+       "textes": [
+        "Paquets · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "CHEMIN ",
+        "1"
+       ]
+      },
+      {
+       "noeuds": 109,
+       "cliquables": 21,
+       "web": 101,
+       "touchables": 76,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "COLLECTION",
+        "TON CLASSEUR"
+       ]
+      },
+      {
+       "noeuds": 172,
+       "cliquables": 37,
+       "web": 164,
+       "touchables": 139,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 194,
+       "cliquables": 47,
+       "web": 186,
+       "touchables": 156,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 151,
+       "cliquables": 20,
+       "web": 143,
+       "touchables": 102,
+       "textes": [
+        "Patrick Vieira · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Tous les joueurs",
+        "Carte Légende : Patrick "
+       ]
+      },
+      {
+       "noeuds": 151,
+       "cliquables": 20,
+       "web": 143,
+       "touchables": 102,
+       "textes": [
+        "Patrick Vieira · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son activé : appuie pour",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Tous les joueurs",
+        "Carte Légende : Patrick "
+       ]
+      }
+     ]
+    },
+    "scenarios": {
+     "scenarios": [
+      {
+       "nom": "maison_et_reprise",
+       "resultat": "ok"
+      },
+      {
+       "nom": "fermee_puis_relancee",
+       "resultat": "ok"
+      },
+      {
+       "nom": "bouton_retour",
+       "resultat": "ok"
+      },
+      {
+       "nom": "rotation_rapide",
+       "resultat": "ok"
+      },
+      {
+       "nom": "memoire_faible",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mise_a_jour_sur_place",
+       "resultat": "ok"
+      },
+      {
+       "nom": "stockage_plein",
+       "resultat": "ok"
+      },
+      {
+       "nom": "mode_avion_puis_retour_reseau",
+       "resultat": "ok"
+      }
+     ]
+    },
+    "paysage": {
+     "etapes": 46,
+     "ecrans_vus": 25,
+     "boutons_touches": 45,
+     "structure_ecrans": [
+      {
+       "noeuds": 172,
+       "cliquables": 37,
+       "web": 164,
+       "touchables": 139,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 75,
+       "cliquables": 28,
+       "web": 67,
+       "touchables": 53,
+       "textes": [
+        "Joueurs · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "RAYON JOUEURS",
+        "TOUS LES JOUEURS"
+       ]
+      },
+      {
+       "noeuds": 132,
+       "cliquables": 16,
+       "web": 124,
+       "touchables": 96,
+       "textes": [
+        "Paquets · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "CHEMIN ",
+        "1"
+       ]
+      },
+      {
+       "noeuds": 109,
+       "cliquables": 21,
+       "web": 101,
+       "touchables": 76,
+       "textes": [
+        "Classeur · Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "COLLECTION",
+        "TON CLASSEUR"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 153,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 194,
+       "cliquables": 47,
+       "web": 186,
+       "touchables": 156,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      },
+      {
+       "noeuds": 191,
+       "cliquables": 46,
+       "web": 183,
+       "touchables": 154,
+       "textes": [
+        "Footdex",
+        "Footdex, retour à l'accu",
+        "FOOTDEX",
+        "L'ALMANACH DU FOOTBALL ·",
+        "POUR RAPHAËL",
+        "0 pièces, ouvrir la bout",
+        "Signaler une erreur ou p",
+        "Son coupé : appuie pour ",
+        "Moi et paramètres",
+        "Chercher un joueur",
+        "Footdex",
+        "POUR RAPHAËL"
+       ]
+      }
+     ]
     }
    }
   }
+ ],
+ "non_verifie": [
+  "À TESTER PAR TOI : le « joli » (le robot ne juge pas le visuel)",
+  "À TESTER PAR TOI : règles des jeux et réactions des personnages",
+  "À TESTER PAR TOI : voix, sons et Bluetooth (émulateur sans audio)",
+  "À TESTER PAR TOI : sur les vrais Samsung",
+  "iPhone / iPad (demande des Mac)"
  ]
 }
