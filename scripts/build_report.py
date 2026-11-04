@@ -51,7 +51,7 @@ for d in sorted(glob.glob(os.path.join(arte, "resultats-*"))):
 res = {"app": nom, "id": app_id, "date": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
        "total_defauts": total, "captures_publiees": publier, "rapport_complet": run_url,
        "appareils": appareils,
-       "non_verifie": ["Jugement du « joli » (le robot ne juge pas le visuel)", "Règles des jeux et réactions des personnages", "Voix, sons et Bluetooth (émulateur sans audio)", "Vrais Samsung / vrais téléphones", "iPhone / iPad (demande des Mac)"]}
+       "non_verifie": ["À TESTER PAR TOI : le « joli » (le robot ne juge pas le visuel)", "À TESTER PAR TOI : règles des jeux et réactions des personnages", "À TESTER PAR TOI : voix, sons et Bluetooth (émulateur sans audio)", "À TESTER PAR TOI : sur les vrais Samsung", "iPhone / iPad (demande des Mac)"]}
 json.dump(res, open(os.path.join(dest, "dernier.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 idx_path = os.path.join("docs", "resultats", "index.json")
