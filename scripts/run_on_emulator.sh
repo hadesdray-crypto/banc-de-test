@@ -56,6 +56,19 @@ A shell cmd connectivity airplane-mode disable || A shell settings put global ai
 A shell svc wifi enable || true
 A shell svc data enable || true
 
+# 5b. Mode sombre
+A shell cmd uimode night yes || true
+W; timeout $PHASE python3 "$HERE/explorer.py" "$PKG" "$OUT" sombre 40
+A shell cmd uimode night no || true
+
+# 5c. Très petit écran (vieux petit téléphone)
+A shell wm size 480x800 || true
+W; timeout $PHASE python3 "$HERE/explorer.py" "$PKG" "$OUT" petit_ecran 40
+A shell wm size reset || true
+
+# 5d. Scénarios de la vie réelle (accueil/reprise, fermeture, retour, rotation, mémoire, mise à jour sur place, stockage plein, réseau)
+W; timeout $PHASE python3 "$HERE/scenarios.py" "$PKG" "$OUT" "$APK" || true
+
 # 6. Gestes au hasard longtemps (Monkey) + endurance
 A logcat -c || true
 timeout 600 adb shell monkey -p "$PKG" --throttle 120 --pct-syskeys 0 --ignore-timeouts \

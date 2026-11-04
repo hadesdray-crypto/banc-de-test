@@ -32,7 +32,7 @@ for d in sorted(glob.glob(os.path.join(arte, "resultats-*"))):
     for f in glob.glob(os.path.join(d, "explorateur_*.json")):
         r = json.load(open(f, encoding="utf-8"))
         defauts += r.get("defauts", [])
-        details[r.get("mode", "?")] = {k: r[k] for k in ("etapes", "ecrans_vus", "boutons_touches", "memoire_mo", "structure_ecrans") if k in r}
+        details[r.get("mode", "?")] = {k: r[k] for k in ("etapes", "ecrans_vus", "boutons_touches", "memoire_mo", "structure_ecrans", "scenarios") if k in r}
     if not glob.glob(os.path.join(d, "explorateur_*.json")):
         defauts.append({"type": "pas_de_resultat", "detail": "Aucun résultat : l'émulateur n'a pas démarré ou a planté."})
     infra = [x for x in defauts if x.get("type") == "infra"]
@@ -50,7 +50,8 @@ for d in sorted(glob.glob(os.path.join(arte, "resultats-*"))):
 
 res = {"app": nom, "id": app_id, "date": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
        "total_defauts": total, "captures_publiees": publier, "rapport_complet": run_url,
-       "appareils": appareils}
+       "appareils": appareils,
+       "non_verifie": ["Jugement du « joli » (le robot ne juge pas le visuel)", "Règles des jeux et réactions des personnages", "Voix, sons et Bluetooth (émulateur sans audio)", "Vrais Samsung / vrais téléphones", "iPhone / iPad (demande des Mac)"]}
 json.dump(res, open(os.path.join(dest, "dernier.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 idx_path = os.path.join("docs", "resultats", "index.json")

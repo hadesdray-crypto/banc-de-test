@@ -57,6 +57,22 @@
       "rapide": false,
       "experimental": true,
       "opts": "-gpu angle_indirect"
+    },
+    {
+      "nom": "android10-telephone",
+      "api": 29,
+      "profile": "pixel_3a",
+      "ram": 2048,
+      "rapide": false,
+      "opts": "-gpu swiftshader_indirect -feature -Vulkan"
+    },
+    {
+      "nom": "android13-tablette",
+      "api": 33,
+      "profile": "pixel_c",
+      "ram": 4096,
+      "rapide": false,
+      "opts": "-gpu angle_indirect"
     }
   ]
 }
